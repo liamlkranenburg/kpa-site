@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Kranenburg Power Advisors</title>
+  <link>https://kpa.energy/</link>
+  <atom:link href="https://kpa.energy/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>Short decision briefs on energy and markets by Liam Kranenburg.</description>
+  <language>en-us</language>
+  <item>
+    <title>Load Bearing</title>
+    <link>https://kpa.energy/briefs/load-bearing/</link>
+    <guid>https://kpa.energy/briefs/load-bearing/</guid>
+    <pubDate>Mon, 26 Oct 2026 12:00:00 GMT</pubDate>
+    <description>AI data centers, the end of flat demand, and the remaking of the utility planning order</description>
+  </item>
+</channel>
+</rss>
