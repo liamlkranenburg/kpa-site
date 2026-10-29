@@ -184,3 +184,13 @@
   // Opening a finding from search on the same page: select its stone
   window.addEventListener('hashchange',function(){var h=document.getElementById(location.hash.slice(1));if(h&&h.classList.contains('stone'))h.click()});
 })();
+
+// Subscribe box: a placeholder until a newsletter account exists. Nothing is sent or stored.
+(function(){
+  [].slice.call(document.querySelectorAll('.sub-form[data-soon]')).forEach(function(f){
+    f.addEventListener('submit',function(e){
+      e.preventDefault();
+      var note=f.parentNode.querySelector('.sub-note');if(note)note.hidden=false;
+    });
+  });
+})();

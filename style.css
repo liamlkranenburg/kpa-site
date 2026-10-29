@@ -515,3 +515,8 @@ footer{background:var(--delft-deep);color:var(--wash);font-family:var(--sans);fo
 @media (max-width:380px){
   .brand-name .b2{letter-spacing:.22em}
 }
+.sub-form{display:flex;flex-wrap:wrap;gap:10px;max-width:560px}
+.sub-form input{flex:1 1 240px;font:500 16px var(--sans);color:var(--ink);background:#fff;border:1.5px solid var(--delft-mid);padding:14px 16px}
+.sub-form input:focus{outline:2px solid var(--copper);outline-offset:1px}
+.sub-note{margin:14px 0 0!important;font-family:var(--sans);font-size:15px;color:var(--delft)}
+.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
