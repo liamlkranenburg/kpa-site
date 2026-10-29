@@ -1,0 +1,8 @@
+# Figure 3. Source: KPA analysis of Duke University Nicholas Institute (2025), Grid Strategies (2025) and Google (2026). Kranenburg Power Advisors, Load Bearing v1.1.
+case,gw
+Contracted today (Google demand response),1
+Headroom at 0.25% curtailment,76
+Headroom at 0.5% curtailment,98
+Headroom at 1% curtailment,126
+Forecast data center growth 2025-30,90
+Forecast total load growth 2025-30,166

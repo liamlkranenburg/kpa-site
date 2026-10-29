@@ -400,3 +400,24 @@ footer{background:var(--delft-deep);color:var(--wash);font-family:var(--sans);fo
 }
 .facts .cite,.facts .share{display:block;padding:18px 0 0;border-bottom:0;color:var(--ink)}
 .contact strong.addr{font-size:clamp(15px,1.15vw,17px)}
+
+/* Calls scorecard */
+.calls-list{list-style:none;padding:0;margin:0;display:grid;gap:16px}
+.call{background:#fff;border:1px solid var(--line);border-left:4px solid var(--copper);padding:22px 24px}
+.call-head{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;margin-bottom:10px}
+.call-id{font-family:var(--sans);font-weight:700;font-size:13px;color:var(--delft);background:var(--wash);padding:4px 8px}
+.call-band{font-family:var(--sans);font-weight:600;font-size:14px;color:var(--copper-text)}
+.call .count{margin-left:auto}
+.call h3{font-family:var(--sans);font-weight:700;font-size:clamp(18px,2vw,21px);line-height:1.3;color:var(--delft);margin:0 0 8px}
+.call p{margin:0;font-size:16px;color:var(--grey)}
+
+/* Versions and corrections on a brief page */
+.versions{margin-top:32px;padding-top:22px;border-top:1px solid var(--line)}
+.versions h2{font-family:var(--sans);font-size:18px;color:var(--delft);margin:0 0 10px}
+.versions p{font-size:16px}
+
+/* Email subscribe */
+.subscribe{background:var(--wash);padding:clamp(28px,4vw,40px)}
+.subscribe h2{font-family:var(--sans);font-weight:700;font-size:clamp(22px,2.6vw,28px);color:var(--delft);margin:0 0 8px}
+.subscribe p{margin:0 0 18px;max-width:60ch}
+.subscribe .actions{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center}
