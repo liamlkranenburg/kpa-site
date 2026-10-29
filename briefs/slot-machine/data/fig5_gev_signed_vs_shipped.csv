@@ -1,0 +1,8 @@
+# Figure 5: GE Vernova gas equipment contracts signed (orders plus slot reservations) and equipment shipped by quarter (GW). Source: GE Vernova quarterly earnings releases (SEC Form 8-K). Kranenburg Power Advisors, Slot Machine v1.1
+quarter,signed_gw,shipped_gw,signed_to_shipped_ratio
+Q2 2025,9,5.0,1.8
+Q3 2025,12,4.0,3.0
+Q4 2025,24,3.0,8.0
+Q1 2026,21,4.0,5.2
+Q2 2026,20,3.0,6.7
+Q3 2026,11,5.0,2.2

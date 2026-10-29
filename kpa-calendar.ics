@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kranenburg Power Advisors//kpa.energy//EN
+X-WR-CALNAME:KPA key dates
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:kpa-20261209-0@kpa.energy
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20261209
+SUMMARY:PJM 2029/30 capacity auction opens
+DESCRIPTION:Bidding runs 9–15 December\, with results due around 22 Decem
+ ber. It settles KPA call LB-1: a clear at the price cap. https://kpa.energ
+ y/findings/#pjm-price
+URL:https://kpa.energy/findings/#pjm-price
+END:VEVENT
+BEGIN:VEVENT
+UID:kpa-20261231-1@kpa.energy
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20261231
+SUMMARY:KPA call LB-1 resolves
+DESCRIPTION:PJM's 2029/30 capacity auction clears at its price cap https://
+ kpa.energy/calls/#lb-1
+URL:https://kpa.energy/calls/#lb-1
+END:VEVENT
+BEGIN:VEVENT
+UID:kpa-20270131-2@kpa.energy
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:KPA call SM-1 resolves
+DESCRIPTION:GE Vernova reports at least 130 GW of gas equipment backlog plu
+ s slot reservations at the end of 2026 https://kpa.energy/calls/#sm-1
+URL:https://kpa.energy/calls/#sm-1
+END:VEVENT
+BEGIN:VEVENT
+UID:kpa-20270331-3@kpa.energy
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20270331
+SUMMARY:KPA call LB-2 resolves
+DESCRIPTION:US retail electricity sales set a new record in 2026\, above 20
+ 25's 4\,058 TWh https://kpa.energy/calls/#lb-2
+URL:https://kpa.energy/calls/#lb-2
+END:VEVENT
+BEGIN:VEVENT
+UID:kpa-20271231-4@kpa.energy
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20271231
+SUMMARY:KPA call LB-3 resolves
+DESCRIPTION:Less than 10% of the Texas large-load queue is approved to ener
+ gize by the end of 2027 https://kpa.energy/calls/#lb-3
+URL:https://kpa.energy/calls/#lb-3
+END:VEVENT
+BEGIN:VEVENT
+UID:kpa-20280131-5@kpa.energy
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20280131
+SUMMARY:KPA call SM-3 resolves
+DESCRIPTION:GE Vernova's gas slot reservations not yet in backlog are below
+  58 GW at the end of 2027 https://kpa.energy/calls/#sm-3
+URL:https://kpa.energy/calls/#sm-3
+END:VEVENT
+BEGIN:VEVENT
+UID:kpa-20280229-6@kpa.energy
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20280229
+SUMMARY:KPA call SM-2b resolves
+DESCRIPTION:At least half of Project Matador's 11.3 GW (EIA-860M\, Septembe
+ r 2026) is canceled\, postponed or moved past 2030 in EIA's December 2027 
+ inventory https://kpa.energy/calls/#sm-2b
+URL:https://kpa.energy/calls/#sm-2b
+END:VEVENT
+END:VCALENDAR

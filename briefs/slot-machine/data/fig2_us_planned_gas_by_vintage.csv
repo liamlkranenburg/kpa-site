@@ -1,4 +1,4 @@
-# Figure 2: Planned US natural gas nameplate capacity in each September EIA-860M inventory (GW); under construction = status U, V or TS. Source: KPA analysis of EIA Form 860M. Kranenburg Power Advisors, Slot Machine v1.0
+# Figure 2: Planned US natural gas nameplate capacity in each September EIA-860M inventory (GW); under construction = status U, V or TS. Source: KPA analysis of EIA Form 860M. Kranenburg Power Advisors, Slot Machine v1.1
 eia860m_inventory,under_construction_gw,not_under_construction_gw,total_planned_gw
 September 2022,9.12,13.87,22.99
 September 2023,5.78,11.33,17.11

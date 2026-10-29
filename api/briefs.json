@@ -1,0 +1,38 @@
+[
+ {
+  "no": 2,
+  "title": "Slot Machine",
+  "subtitle": "Gas turbine reservations, a paper shortage, and who holds the risk",
+  "date": "2026-10-29",
+  "version": "1.1",
+  "pages": 11,
+  "url": "https://kpa.energy/briefs/slot-machine/",
+  "pdf": "https://kpa.energy/briefs/slot-machine/slot-machine.pdf",
+  "data": "https://kpa.energy/briefs/slot-machine/slot-machine-data.zip",
+  "earlier_versions": [
+   {
+    "version": "1.0",
+    "date": "2026-10-29",
+    "pdf": "https://kpa.energy/briefs/slot-machine/slot-machine-v1.0.pdf"
+   }
+  ]
+ },
+ {
+  "no": 1,
+  "title": "Load Bearing",
+  "subtitle": "AI data centers, the end of flat demand, and the remaking of the utility planning order",
+  "date": "2026-10-26",
+  "version": "1.1",
+  "pages": 10,
+  "url": "https://kpa.energy/briefs/load-bearing/",
+  "pdf": "https://kpa.energy/briefs/load-bearing/load-bearing.pdf",
+  "data": "https://kpa.energy/briefs/load-bearing/load-bearing-data.zip",
+  "earlier_versions": [
+   {
+    "version": "1.0",
+    "date": "2026-10-26",
+    "pdf": "https://kpa.energy/briefs/load-bearing/load-bearing-v1.0.pdf"
+   }
+  ]
+ }
+]

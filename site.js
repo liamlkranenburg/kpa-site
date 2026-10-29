@@ -35,12 +35,23 @@
         $('.slit-p',slit).textContent=$('.p',m).textContent;
         $('.src',slit).textContent=$('.src',m).textContent;
         var a=$('.slit-page',slit);a.href=pdf+'#page='+page;a.textContent='Read it on page '+page;
+        var cp=$('.slit-copy',slit);if(cp)cp.setAttribute('data-id',s.id);
       }
       if(scroll){
         var target=(slit&&getComputedStyle(slit).display!=='none')?slit:s;
         var r=target.getBoundingClientRect();
         if(r.top<80||r.bottom>innerHeight)target.scrollIntoView({behavior:'smooth',block:'center'});
       }
+    }
+    if(slit){
+      var cp=document.createElement('button');cp.type='button';cp.className='slit-copy';cp.textContent='Copy link to this finding';
+      cp.setAttribute('data-id',stones[0]&&stones[0].id);
+      cp.addEventListener('click',function(){
+        var u=location.origin+'/findings/#'+cp.getAttribute('data-id');
+        var ok=function(){cp.textContent='Link copied';setTimeout(function(){cp.textContent='Copy link to this finding'},2000)};
+        if(navigator.clipboard)navigator.clipboard.writeText(u).then(ok,function(){prompt('Copy this link:',u)});else prompt('Copy this link:',u);
+      });
+      $('.slit-links',slit).appendChild(cp);
     }
     stones.forEach(function(s){
       var tag=document.createElement('span');tag.className='pg';tag.textContent='Page '+s.getAttribute('data-page')+' of the brief';
@@ -135,4 +146,41 @@
       else prompt('Copy this:',text);
     });
   });
+})();
+
+// Site search: press / or Cmd/Ctrl+K, or the Search button
+(function(){
+  var btn=document.querySelector('.search-btn');if(!btn||location.protocol==='file:')return;
+  var dlg=document.createElement('div');dlg.className='search-dlg';dlg.setAttribute('role','dialog');dlg.setAttribute('aria-modal','true');dlg.setAttribute('aria-label','Search kpa.energy');
+  dlg.innerHTML='<div class="search-box"><input type="search" placeholder="Search briefs, findings, calls, terms" aria-label="Search" autocomplete="off"><ul class="search-res" role="listbox"></ul><div class="search-foot"><span>Enter to open, arrows to move</span><span>Esc to close</span></div></div>';
+  document.body.appendChild(dlg);
+  var input=dlg.querySelector('input'),list=dlg.querySelector('.search-res'),idx=null,sel=0,hits=[],last=null;
+  function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function load(cb){if(idx)return cb();fetch('/search-index.json').then(function(r){return r.json()}).then(function(j){idx=j;cb()}).catch(function(){idx=[];cb()})}
+  function render(){
+    var q=input.value.toLowerCase().trim(),words=q.split(/\s+/).filter(Boolean);
+    hits=!words.length?idx.filter(function(i){return i.k==='Page'||i.k.indexOf('Brief')===0}).slice(0,10):
+      idx.map(function(i){var t=(i.t+' '+i.k+' '+i.d).toLowerCase(),sc=0;
+        for(var w=0;w<words.length;w++){var p=t.indexOf(words[w]);if(p<0)return null;sc+=(i.t.toLowerCase().indexOf(words[w])>=0?2:1)}
+        return{i:i,s:sc}}).filter(Boolean).sort(function(a,b){return b.s-a.s}).slice(0,12).map(function(x){return x.i});
+    sel=0;
+    list.innerHTML=hits.length?hits.map(function(h,n){return '<li><a href="'+esc(h.u)+'" role="option" aria-selected="'+(n===0)+'"><span class="k">'+esc(h.k)+'</span><span class="t">'+esc(h.t)+'</span><span class="d">'+esc(h.d)+'</span></a></li>'}).join(''):'<li><p class="search-empty">No matches. Try a number, a company or a term, such as PJM, turbine or 2031.</p></li>';
+  }
+  function move(d){var a=list.querySelectorAll('a');if(!a.length)return;a[sel].setAttribute('aria-selected','false');sel=(sel+d+a.length)%a.length;a[sel].setAttribute('aria-selected','true');a[sel].scrollIntoView({block:'nearest'})}
+  function open(){last=document.activeElement;dlg.classList.add('open');load(function(){render();input.focus()})}
+  function close(){dlg.classList.remove('open');input.value='';if(last)last.focus()}
+  btn.addEventListener('click',open);
+  dlg.addEventListener('click',function(e){if(e.target===dlg)close()});
+  input.addEventListener('input',render);
+  input.addEventListener('keydown',function(e){
+    if(e.key==='ArrowDown'){e.preventDefault();move(1)}else if(e.key==='ArrowUp'){e.preventDefault();move(-1)}
+    else if(e.key==='Enter'){var a=list.querySelectorAll('a')[sel];if(a){e.preventDefault();location.href=a.href;close()}}
+    else if(e.key==='Escape'){close()}
+  });
+  document.addEventListener('keydown',function(e){
+    var t=e.target.tagName;if(dlg.classList.contains('open'))return;
+    if((e.key==='/'&&t!=='INPUT'&&t!=='TEXTAREA')||((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k')){e.preventDefault();open()}
+  });
+  // Opening a finding from search on the same page: select its stone
+  window.addEventListener('hashchange',function(){var h=document.getElementById(location.hash.slice(1));if(h&&h.classList.contains('stone'))h.click()});
 })();

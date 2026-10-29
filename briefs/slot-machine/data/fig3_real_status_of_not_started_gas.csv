@@ -1,0 +1,12 @@
+# Figure 3: Real status in October 2026 of the 37.4 GW of 2027-30 US gas capacity that EIA-860M (September 2026) codes as planned with regulatory approvals not initiated, by whether the plant serves a named data center campus (GW). Source: KPA project-by-project check. Kranenburg Power Advisors, Slot Machine v1.1
+cls,campus,gw
+APPROVED,False,3.54
+EARLY,False,3.4
+EARLY,True,10.23
+FILED,False,2.6
+FILED,True,3.24
+TROUBLED,False,1.76
+TROUBLED,True,0.6
+UNDER CONSTRUCTION,False,6.48
+UNDER CONSTRUCTION,True,5.42
+UNVERIFIED,False,0.08
