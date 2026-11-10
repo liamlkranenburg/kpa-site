@@ -96,5 +96,47 @@
   "status": "Open until February 2028",
   "outcome": null,
   "resolved_on": null
+ },
+ {
+  "id": "BF-1",
+  "brief": "Banked Fires",
+  "version": "1.0",
+  "made_on": "2026-11-10",
+  "call": "Less than 1.5 GW of US coal capacity retires in calendar 2026, by EIA's count",
+  "band": "very likely",
+  "probability": 0.85,
+  "resolves_by": "2027-02-28",
+  "resolution_source": "EIA Form 860M for December 2026 (Retired sheet; coal energy codes)",
+  "status": "Open until February 2027",
+  "outcome": null,
+  "resolved_on": null
+ },
+ {
+  "id": "BF-2",
+  "brief": "Banked Fires",
+  "version": "1.0",
+  "made_on": "2026-11-10",
+  "call": "At least half of the 6.2 GW of coal EIA lists (Sep 2026) to retire in 2027 is still in operation at the end of 2027",
+  "band": "likely",
+  "probability": 0.6,
+  "resolves_by": "2028-02-29",
+  "resolution_source": "EIA Form 860M for December 2027",
+  "status": "Open until February 2028",
+  "outcome": null,
+  "resolved_on": null
+ },
+ {
+  "id": "BF-3",
+  "brief": "Banked Fires",
+  "version": "1.0",
+  "made_on": "2026-11-10",
+  "call": "J.H. Campbell is still listed as operating in EIA's inventory for March 2027",
+  "band": "very likely",
+  "probability": 0.85,
+  "resolves_by": "2027-05-31",
+  "resolution_source": "EIA Form 860M for March 2027",
+  "status": "Open until May 2027",
+  "outcome": null,
+  "resolved_on": null
  }
 ]

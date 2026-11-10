@@ -1,0 +1,13 @@
+# Figure 1: US coal capacity listed in EIA-860M December inventories as planned to retire the following year, and share retired in that year (2026 = January-September; 2021 excludes 0.67 GW whose generator ID is not in the September 2026 inventory). Source: KPA analysis of EIA Form 860M. Kranenburg Power Advisors, Banked Fires v1.0
+retirement_year_listed,gw_listed_previous_december,gw_retired_that_year,share_retired_that_year
+2016,5.33,4.93,0.925
+2017,4.88,4.56,0.934
+2018,11.9,10.27,0.863
+2019,3.99,3.61,0.905
+2020,6.1,5.93,0.971
+2021,2.7,2.03,1.0
+2022,11.22,10.01,0.892
+2023,8.94,6.5,0.727
+2024,2.3,2.3,1.0
+2025,8.13,2.21,0.272
+2026,6.36,0.0,0.0

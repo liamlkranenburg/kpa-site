@@ -4,7 +4,18 @@ PRODID:-//Kranenburg Power Advisors//kpa.energy//EN
 X-WR-CALNAME:KPA key dates
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:kpa-20261209-0@kpa.energy
+UID:kpa-20261114-0@kpa.energy
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20261114
+SUMMARY:Campbell's sixth emergency order expires
+DESCRIPTION:DOE has renewed the J.H. Campbell order five times since May 20
+ 25\, and the one court ruling so far vacated an order that had already exp
+ ired. A seventh renewal fits KPA call BF-3: Campbell still listed as opera
+ ting in March 2027. https://kpa.energy/findings/#campbell-460
+URL:https://kpa.energy/findings/#campbell-460
+END:VEVENT
+BEGIN:VEVENT
+UID:kpa-20261209-1@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20261209
 SUMMARY:PJM 2029/30 capacity auction opens
@@ -14,7 +25,7 @@ DESCRIPTION:Bidding runs 9–15 December\, with results due around 22 Decem
 URL:https://kpa.energy/findings/#pjm-price
 END:VEVENT
 BEGIN:VEVENT
-UID:kpa-20261231-1@kpa.energy
+UID:kpa-20261231-2@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20261231
 SUMMARY:KPA call LB-1 resolves
@@ -23,7 +34,7 @@ DESCRIPTION:PJM's 2029/30 capacity auction clears at its price cap https://
 URL:https://kpa.energy/calls/#lb-1
 END:VEVENT
 BEGIN:VEVENT
-UID:kpa-20270131-2@kpa.energy
+UID:kpa-20270131-3@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20270131
 SUMMARY:KPA call SM-1 resolves
@@ -32,7 +43,16 @@ DESCRIPTION:GE Vernova reports at least 130 GW of gas equipment backlog plu
 URL:https://kpa.energy/calls/#sm-1
 END:VEVENT
 BEGIN:VEVENT
-UID:kpa-20270331-3@kpa.energy
+UID:kpa-20270228-4@kpa.energy
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:KPA call BF-1 resolves
+DESCRIPTION:Less than 1.5 GW of US coal capacity retires in calendar 2026\,
+  by EIA's count https://kpa.energy/calls/#bf-1
+URL:https://kpa.energy/calls/#bf-1
+END:VEVENT
+BEGIN:VEVENT
+UID:kpa-20270331-5@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20270331
 SUMMARY:KPA call LB-2 resolves
@@ -41,7 +61,16 @@ DESCRIPTION:US retail electricity sales set a new record in 2026\, above 20
 URL:https://kpa.energy/calls/#lb-2
 END:VEVENT
 BEGIN:VEVENT
-UID:kpa-20271231-4@kpa.energy
+UID:kpa-20270531-6@kpa.energy
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20270531
+SUMMARY:KPA call BF-3 resolves
+DESCRIPTION:J.H. Campbell is still listed as operating in EIA's inventory f
+ or March 2027 https://kpa.energy/calls/#bf-3
+URL:https://kpa.energy/calls/#bf-3
+END:VEVENT
+BEGIN:VEVENT
+UID:kpa-20271231-7@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20271231
 SUMMARY:KPA call LB-3 resolves
@@ -50,7 +79,7 @@ DESCRIPTION:Less than 10% of the Texas large-load queue is approved to ener
 URL:https://kpa.energy/calls/#lb-3
 END:VEVENT
 BEGIN:VEVENT
-UID:kpa-20280131-5@kpa.energy
+UID:kpa-20280131-8@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20280131
 SUMMARY:KPA call SM-3 resolves
@@ -59,7 +88,17 @@ DESCRIPTION:GE Vernova's gas slot reservations not yet in backlog are below
 URL:https://kpa.energy/calls/#sm-3
 END:VEVENT
 BEGIN:VEVENT
-UID:kpa-20280229-6@kpa.energy
+UID:kpa-20280229-9@kpa.energy
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20280229
+SUMMARY:KPA call BF-2 resolves
+DESCRIPTION:At least half of the 6.2 GW of coal EIA lists (Sep 2026) to ret
+ ire in 2027 is still in operation at the end of 2027 https://kpa.energy/ca
+ lls/#bf-2
+URL:https://kpa.energy/calls/#bf-2
+END:VEVENT
+BEGIN:VEVENT
+UID:kpa-20280229-10@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20280229
 SUMMARY:KPA call SM-2b resolves

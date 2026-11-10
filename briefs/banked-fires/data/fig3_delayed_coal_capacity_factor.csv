@@ -1,0 +1,14 @@
+# Figure 3: capacity factor, January-August 2026, of coal units whose planned 2025 or 2026 retirement passed or was pushed past 2026 (negative monthly values set to zero before summing). Source: KPA analysis of EIA-923 and EIA Form 860M; fleet value from EIA Electric Power Monthly Table 6.07.A. Kranenburg Power Advisors, Banked Fires v1.0
+plant,kept_by,net_summer_mw,net_generation_mwh_jan_aug_2026,capacity_factor_jan_aug_2026
+Centralia 2 (WA),DOE order,670,0.0,0.0
+Craig 1 (CO),DOE order,427,77260.0,0.031
+Schahfer 17–18 (IN),DOE order,722,322880.0,0.077
+Culley 2 (IN),DOE order,90,51466.0,0.098
+GREC 2 (OK),Owner or grid contract,479,640480.0,0.229
+Kingston 7–9 (TN),Owner or grid contract,444,752894.0,0.291
+Brandon Shores (MD),Owner or grid contract,1273,2515183.0,0.339
+South Oak Creek 7–8 (WI),Owner or grid contract,617,1380479.0,0.384
+J.H. Campbell (MI),DOE order,1331,3120070.0,0.402
+Stanton 1 (FL),DOE order,453,1132147.0,0.429
+Cumberland 2 (TN),Owner or grid contract,1231,3145862.0,0.438
+Comanche 2 (CO),Owner or grid contract,335,1164950.0,0.596

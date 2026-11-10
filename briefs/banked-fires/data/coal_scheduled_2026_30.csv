@@ -1,0 +1,63 @@
+# Operating US coal generators with a planned retirement date in 2026-2030, EIA-860M September 2026 (net summer MW).
+planned_year,planned_month,plant_id,gen_id,plant,entity,state,ba,mw,op_year
+2026,11,1710,1,J H Campbell,Consumers Energy Co - (MI),MI,MISO,260,1962
+2026,11,1710,2,J H Campbell,Consumers Energy Co - (MI),MI,MISO,280,1967
+2026,11,1710,3,J H Campbell,Consumers Energy Co - (MI),MI,MISO,791,1980
+2026,12,1012,2,F B Culley,Southern Indiana Gas & Elec Co,IN,MISO,90,1966
+2026,12,470,2,Comanche (CO),Public Service Co of Colorado,CO,WACM,335,1975
+2026,12,6021,1,Craig (CO),"Tri-State G & T Assn, Inc",CO,WACM,427,1980
+2026,12,6085,17,R M Schahfer,Northern Indiana Pub Serv Co,IN,MISO,361,1983
+2026,12,6085,18,R M Schahfer,Northern Indiana Pub Serv Co,IN,MISO,361,1986
+2026,12,6090,1,Sherburne County,Northern States Power Co - Minnesota,MN,MISO,680,1976
+2027,12,2364,1,Merrimack,Granite Shore Power,NH,ISNE,108,1960
+2027,12,3407,1,Kingston,Tennessee Valley Authority,TN,TVA,104,1954
+2027,12,3407,2,Kingston,Tennessee Valley Authority,TN,TVA,105,1954
+2027,12,3407,3,Kingston,Tennessee Valley Authority,TN,TVA,105,1954
+2027,12,3407,4,Kingston,Tennessee Valley Authority,TN,TVA,99,1954
+2027,12,3407,5,Kingston,Tennessee Valley Authority,TN,TVA,150,1955
+2027,12,3407,6,Kingston,Tennessee Valley Authority,TN,TVA,140,1955
+2027,12,4041,7,South Oak Creek,Wisconsin Electric Power Co,WI,MISO,307,1965
+2027,12,4041,8,South Oak Creek,Wisconsin Electric Power Co,WI,MISO,310,1967
+2027,12,4158,3,Dave Johnston,PacifiCorp,WY,PACE,220,1964
+2027,12,525,2,Hayden,Public Service Co of Colorado,CO,PSCO,262,1976
+2027,12,6017,1,Newton,Illinois Power Generating Co,IL,MISO,595,1977
+2027,12,6073,1,Victor J Daniel Jr,Mississippi Power Co,MS,SOCO,502,1977
+2027,12,6073,2,Victor J Daniel Jr,Mississippi Power Co,MS,SOCO,502,1981
+2027,12,8223,1,Springerville,Tucson Electric Power Co,AZ,TEPC,381,1985
+2027,12,876,1,Kincaid Generation LLC,Dynegy Kincaid Generation,IL,PJM,556,1967
+2027,12,876,2,Kincaid Generation LLC,Dynegy Kincaid Generation,IL,PJM,556,1968
+2027,12,889,1,Baldwin Energy Complex,Dynegy Midwest Generation Inc,IL,MISO,576,1970
+2027,12,889,2,Baldwin Energy Complex,Dynegy Midwest Generation Inc,IL,MISO,581,1973
+2028,12,1733,3,Monroe (MI),DTE Electric Company,MI,MISO,773,1973
+2028,12,1733,4,Monroe (MI),DTE Electric Company,MI,MISO,762,1974
+2028,12,1915,1,Allen S King,Northern States Power Co - Minnesota,MN,MISO,511,1958
+2028,12,2107,1,Sioux,Union Electric Co - (MO),MO,MISO,487,1967
+2028,12,2107,2,Sioux,Union Electric Co - (MO),MO,MISO,487,1968
+2028,12,2727,2,Marshall (NC),"Duke Energy Carolinas, LLC",NC,DUK,370,1966
+2028,12,2828,3,Cardinal,Cardinal Operating Company,OH,PJM,620,1977
+2028,12,3399,1,Cumberland (TN),Tennessee Valley Authority,TN,TVA,1239,1973
+2028,12,525,1,Hayden,Public Service Co of Colorado,CO,PSCO,179,1965
+2028,12,6034,ST1,Belle River,DTE Electric Company,MI,MISO,635,1984
+2028,12,6034,ST2,Belle River,DTE Electric Company,MI,MISO,635,1985
+2028,12,6166,1,Rockport,Indiana Michigan Power Co,IN,PJM,1300,1984
+2028,12,6166,2,Rockport,Indiana Michigan Power Co,IN,PJM,1300,1989
+2028,12,6194,1,Tolk,Southwestern Public Service Co,TX,SWPP,532,1982
+2028,12,6194,2,Tolk,Southwestern Public Service Co,TX,SWPP,535,1985
+2028,12,7097,1,J K Spruce,City of San Antonio - (TX),TX,ERCO,560,1992
+2028,5,2364,2,Merrimack,Granite Shore Power,NH,ISNE,331,1968
+2028,5,997,12,Michigan City,Northern Indiana Pub Serv Co,IN,MISO,455,1974
+2028,9,6021,2,Craig (CO),"Tri-State G & T Assn, Inc",CO,WACM,410,1979
+2029,12,6021,3,Craig (CO),"Tri-State G & T Assn, Inc",CO,WACM,448,1984
+2029,12,6761,1,Rawhide,Platte River Power Authority,CO,PSCO,280,1984
+2029,12,8023,1,Columbia (WI),Wisconsin Power & Light Co,WI,MISO,568,1975
+2029,12,8023,2,Columbia (WI),Wisconsin Power & Light Co,WI,MISO,560,1978
+2029,12,8219,1,Ray D Nixon,City of Colorado Springs - (CO),CO,WACM,195,1980
+2029,6,602,1,Brandon Shores,Brandon Shores LLC,MD,PJM,635,1984
+2029,6,602,2,Brandon Shores,Brandon Shores LLC,MD,PJM,638,1991
+2030,12,470,3,Comanche (CO),Public Service Co of Colorado,CO,WACM,750,2010
+2030,12,6090,3,Sherburne County,Northern States Power Co - Minnesota,MN,MISO,876,1987
+2030,12,6249,1,Winyah,South Carolina Public Service Authority,SC,SC,275,1975
+2030,12,6249,2,Winyah,South Carolina Public Service Authority,SC,SC,285,1977
+2030,12,6249,3,Winyah,South Carolina Public Service Authority,SC,SC,285,1980
+2030,12,6249,4,Winyah,South Carolina Public Service Authority,SC,SC,285,1981
+2030,,6068,3,Jeffrey Energy Center,"Evergy Kansas Central, Inc",KS,SWPP,732,1983

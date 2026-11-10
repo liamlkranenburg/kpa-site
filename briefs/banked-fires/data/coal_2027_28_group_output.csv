@@ -1,0 +1,40 @@
+# Coal generators listed in EIA-860M (Sep 2026) to retire in 2027-28: net generation and capacity factor, 2025 and Jan-Aug 2026, from EIA-923 Page 4 (negative months set to zero; Rockport generation reported under IDs 1/MB1 and 2/MB2 is summed).
+planned_year,plant_id,gen_id,plant,entity,state,ba,mw,gen_2025_mwh,cf_2025,gen_jan_aug_2026_mwh,cf_jan_aug_2026
+2028,525,1,"Hayden","Public Service Co of Colorado",CO,PSCO,179,807105,0.515,392447,0.376
+2027,525,2,"Hayden","Public Service Co of Colorado",CO,PSCO,262,1467769,0.640,438903,0.287
+2027,876,1,"Kincaid Generation LLC","Dynegy Kincaid Generation",IL,PJM,556,1208003,0.248,298432,0.092
+2027,876,2,"Kincaid Generation LLC","Dynegy Kincaid Generation",IL,PJM,556,1481988,0.304,570905,0.176
+2027,889,1,"Baldwin Energy Complex","Dynegy Midwest Generation Inc",IL,MISO,576,2969041,0.588,1755911,0.523
+2027,889,2,"Baldwin Energy Complex","Dynegy Midwest Generation Inc",IL,MISO,581,3540580,0.696,1962991,0.579
+2028,997,12,"Michigan City","Northern Indiana Pub Serv Co",IN,MISO,455,1938046,0.486,992841,0.374
+2028,1733,3,"Monroe (MI)","DTE Electric Company",MI,MISO,773,4299690,0.635,2894112,0.642
+2028,1733,4,"Monroe (MI)","DTE Electric Company",MI,MISO,762,3435946,0.515,2342223,0.527
+2028,1915,1,"Allen S King","Northern States Power Co - Minnesota",MN,MISO,511,918722,0.205,704224,0.236
+2028,2107,1,"Sioux","Union Electric Co - (MO)",MO,MISO,487,1845133,0.433,1257122,0.443
+2028,2107,2,"Sioux","Union Electric Co - (MO)",MO,MISO,487,2143812,0.503,1335870,0.470
+2027,2364,1,"Merrimack","Granite Shore Power",NH,ISNE,108,0,0.000,0,0.000
+2028,2364,2,"Merrimack","Granite Shore Power",NH,ISNE,331,239586,0.083,0,0.000
+2028,2727,2,"Marshall (NC)","Duke Energy Carolinas, LLC",NC,DUK,370,1233562,0.381,1453649,0.674
+2028,2828,3,"Cardinal","Cardinal Operating Company",OH,PJM,620,3357310,0.618,2554946,0.707
+2028,3399,1,"Cumberland (TN)","Tennessee Valley Authority",TN,TVA,1239,3894740,0.359,3766226,0.521
+2027,3407,1,"Kingston","Tennessee Valley Authority",TN,TVA,104,288440,0.317,274599,0.453
+2027,3407,2,"Kingston","Tennessee Valley Authority",TN,TVA,105,522154,0.568,406249,0.663
+2027,3407,3,"Kingston","Tennessee Valley Authority",TN,TVA,105,344926,0.375,224817,0.367
+2027,3407,4,"Kingston","Tennessee Valley Authority",TN,TVA,99,403545,0.465,184006,0.319
+2027,3407,5,"Kingston","Tennessee Valley Authority",TN,TVA,150,125115,0.095,10230,0.012
+2027,3407,6,"Kingston","Tennessee Valley Authority",TN,TVA,140,410119,0.334,481317,0.590
+2027,4041,7,"South Oak Creek","Wisconsin Electric Power Co",WI,MISO,307,1127282,0.420,574586,0.321
+2027,4041,8,"South Oak Creek","Wisconsin Electric Power Co",WI,MISO,310,974189,0.359,805893,0.446
+2027,4158,3,"Dave Johnston","PacifiCorp",WY,PACE,220,1336251,0.693,700629,0.546
+2027,6017,1,"Newton","Illinois Power Generating Co",IL,MISO,595,3712606,0.712,2039463,0.588
+2028,6021,2,"Craig (CO)","Tri-State G & T Assn, Inc",CO,WACM,410,1644754,0.458,893671,0.374
+2028,6034,ST1,"Belle River","DTE Electric Company",MI,MISO,635,2535266,0.456,984437,0.266
+2028,6034,ST2,"Belle River","DTE Electric Company",MI,MISO,635,3535818,0.636,1570897,0.424
+2027,6073,1,"Victor J Daniel Jr","Mississippi Power Co",MS,SOCO,502,17210,0.004,45983,0.016
+2027,6073,2,"Victor J Daniel Jr","Mississippi Power Co",MS,SOCO,502,1844723,0.419,902119,0.308
+2028,6166,1,"Rockport","Indiana Michigan Power Co",IN,PJM,1300,5507562,0.484,4639800,0.612
+2028,6166,2,"Rockport","Indiana Michigan Power Co",IN,PJM,1300,4127661,0.362,2476843,0.327
+2028,6194,1,"Tolk","Southwestern Public Service Co",TX,SWPP,532,1050886,0.225,1084174,0.349
+2028,6194,2,"Tolk","Southwestern Public Service Co",TX,SWPP,535,1867714,0.399,344597,0.110
+2028,7097,1,"J K Spruce","City of San Antonio - (TX)",TX,ERCO,560,2520781,0.514,2503064,0.766
+2027,8223,1,"Springerville","Tucson Electric Power Co",AZ,TEPC,381,1242234,0.372,591520,0.266

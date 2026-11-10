@@ -1,5 +1,17 @@
 [
  {
+  "no": 3,
+  "title": "Banked Fires",
+  "subtitle": "US coal retirements have stalled, and plants owners keep run harder than those held by order",
+  "date": "2026-11-10",
+  "version": "1.0",
+  "pages": 10,
+  "url": "https://kpa.energy/briefs/banked-fires/",
+  "pdf": "https://kpa.energy/briefs/banked-fires/banked-fires.pdf",
+  "data": "https://kpa.energy/briefs/banked-fires/banked-fires-data.zip",
+  "earlier_versions": []
+ },
+ {
   "no": 2,
   "title": "Slot Machine",
   "subtitle": "Gas turbine reservations, a paper shortage, and who holds the risk",

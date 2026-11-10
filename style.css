@@ -520,3 +520,18 @@ footer{background:var(--delft-deep);color:var(--wash);font-family:var(--sans);fo
 .sub-form input:focus{outline:2px solid var(--copper);outline-offset:1px}
 .sub-note{margin:14px 0 0!important;font-family:var(--sans);font-size:15px;color:var(--delft)}
 .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.next-call{background:var(--delft);color:#fff;padding:22px 26px;margin-bottom:28px;border-left:4px solid var(--copper)}
+.next-call .tag{color:var(--copper-lt)}
+.next-call p{margin:0 0 6px;color:var(--wash)}
+.nc-call a{font:700 clamp(18px,2vw,22px)/1.3 var(--sans);color:#fff;text-decoration:none}
+.nc-call a:hover{text-decoration:underline;text-underline-offset:4px}
+.next-call .count{margin-left:8px}
+.call-groups{list-style:none;padding:0;margin:0;display:grid;gap:34px}
+.cg-title{font:700 22px var(--sans);color:var(--delft);margin:0 0 12px;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px}
+.cg-title a{color:var(--delft);text-decoration:none}
+.cg-title span{font:500 14px var(--sans);color:var(--grey)}
+.ki-box .newhere{margin-top:30px;padding:22px 24px;background:var(--wash);border-left:4px solid var(--delft)}
+.ki-box .newhere h2{font-family:var(--sans);font-size:18px;color:var(--delft);margin:0 0 8px}
+.ki-box .newhere p{font-size:15.5px;color:var(--grey);margin:0 0 10px}
+.ki-box .newhere ul{margin:0;padding-left:20px}
+.ki-box .newhere li{margin-bottom:8px;font-size:16px}
