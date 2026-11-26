@@ -212,7 +212,7 @@
       if(!en.isIntersecting)return;io.unobserve(en.target);
       if(en.target.classList.contains('calls-board'))en.target.classList.add('seen');else countUp(en.target);
     })},{threshold:.4});
-    counts.concat(boards).forEach(function(el){io.observe(el)});
+    boards.forEach(function(el){io.observe(el)});  // numbers are never animated: a reader must not see a partial value
   }else boards.forEach(function(b){b.classList.add('seen')});
 
   var bar=document.querySelector('.progress span');
