@@ -1,5 +1,17 @@
 [
  {
+  "no": 5,
+  "title": "Rate Limiter",
+  "subtitle": "AI demand is lifting utility spending, but regulators decide who earns on it",
+  "date": "2026-11-25",
+  "version": "1.1",
+  "pages": 9,
+  "url": "https://kpa.energy/briefs/rate-limiter/",
+  "pdf": "https://kpa.energy/briefs/rate-limiter/rate-limiter.pdf",
+  "data": "https://kpa.energy/briefs/rate-limiter/rate-limiter-data.zip",
+  "earlier_versions": []
+ },
+ {
   "no": 4,
   "title": "Cold Storage",
   "subtitle": "Batteries now lead winter capacity additions, but long winter peaks outlast them",

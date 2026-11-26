@@ -1,0 +1,23 @@
+# EIA Form 861M, sales to ultimate customers, Virginia Electric & Power Co (utility 19876), Virginia, residential; resRev = thousand dollars, resMWh = megawatt-hours. Files sales_ult_cust_2025.xlsx (final) and sales_ult_cust_2026.xlsx (preliminary, January-September 2026), downloaded 25 Nov 2026 from https://www.eia.gov/electricity/data/eia861m/. Kranenburg Power Advisors, Rate Limiter v1.1
+year,month,util,state,status,resRev,resMWh
+2025,1,19876.0,VA,Final,509670.903,3747348.07
+2025,2,19876.0,VA,Final,385728.007,2775259.028
+2025,3,19876.0,VA,Final,308590.863,2135408.807
+2025,4,19876.0,VA,Final,266611.527,1812281.012
+2025,5,19876.0,VA,Final,279672.953,1890941.311
+2025,6,19876.0,VA,Final,421231.269,2824762.146
+2025,7,19876.0,VA,Final,530592.152,3328396.516
+2025,8,19876.0,VA,Final,394676.339,2457601.832
+2025,9,19876.0,VA,Final,340174.825,2003561.501
+2025,10,19876.0,VA,Final,284907.362,1715853.417
+2025,11,19876.0,VA,Final,332289.99,2077420.038
+2025,12,19876.0,VA,Final,504378.401,3237000.761
+2026,1,19876.0,VA,Preliminary,593354.225,3587806.24
+2026,2,19876.0,VA,Preliminary,506424.431,3036899.896
+2026,3,19876.0,VA,Preliminary,367982.933,2076102.799
+2026,4,19876.0,VA,Preliminary,317735.454,1810365.471
+2026,5,19876.0,VA,Preliminary,345940.141,1957833.213
+2026,6,19876.0,VA,Preliminary,476756.113,2599681.308
+2026,7,19876.0,VA,Preliminary,586888.738,3136509.352
+2026,8,19876.0,VA,Preliminary,566161.833,3007759.917
+2026,9,19876.0,VA,Preliminary,445483.452,2339082.274

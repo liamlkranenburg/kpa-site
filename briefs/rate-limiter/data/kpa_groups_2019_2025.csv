@@ -1,0 +1,7 @@
+# Five utility groups: retail sales and bundled residential price, 2019 and 2025 (EIA-861). Kranenburg Power Advisors, Rate Limiter v1.1
+group,sales19_TWh,sales25_TWh,sales_change,com_change,res_price19,res_price25,res_price_change,sales_cagr
+Dominion,107.9734,126.3233,0.1699,0.3584,12.511,15.3588,0.2276,0.0265
+Southern,148.4609,151.3352,0.0194,0.0426,12.6455,16.8478,0.3323,0.0032
+AEP,137.1962,149.4853,0.0896,0.3557,11.2661,15.5928,0.384,0.0144
+Entergy,115.9129,128.8507,0.1116,-0.0128,9.577,12.9658,0.3538,0.0178
+Pinnacle West,27.8446,34.1978,0.2282,0.3936,13.5988,17.0307,0.2524,0.0348

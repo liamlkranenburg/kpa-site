@@ -101,13 +101,23 @@ BEGIN:VEVENT
 UID:kpa-20261231-9@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20261231
+SUMMARY:Arizona commission's deadline to vote on the APS rate case
+DESCRIPTION:APS's allowed return is 9.55%\; commission staff recommend 9.55
+ –9.80% and APS asks for 10.70%. https://kpa.energy/findings/#pinnacle-ca
+ pital-minus-4
+URL:https://kpa.energy/findings/#pinnacle-capital-minus-4
+END:VEVENT
+BEGIN:VEVENT
+UID:kpa-20261231-10@kpa.energy
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20261231
 SUMMARY:KPA call LB-1 resolves
 DESCRIPTION:PJM's 2029/30 capacity auction clears at its price cap https://
  kpa.energy/calls/#lb-1
 URL:https://kpa.energy/calls/#lb-1
 END:VEVENT
 BEGIN:VEVENT
-UID:kpa-20270127-10@kpa.energy
+UID:kpa-20270127-11@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20270127
 SUMMARY:GE Vernova fourth-quarter results
@@ -117,7 +127,7 @@ DESCRIPTION:Settles KPA call SM-1: at least 130 GW of gas orders and reserv
 URL:https://kpa.energy/findings/#gev-book-122
 END:VEVENT
 BEGIN:VEVENT
-UID:kpa-20270131-11@kpa.energy
+UID:kpa-20270131-12@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20270131
 SUMMARY:KPA call SM-1 resolves
@@ -126,7 +136,7 @@ DESCRIPTION:GE Vernova reports at least 130 GW of gas equipment backlog plu
 URL:https://kpa.energy/calls/#sm-1
 END:VEVENT
 BEGIN:VEVENT
-UID:kpa-20270212-12@kpa.energy
+UID:kpa-20270212-13@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20270212
 SUMMARY:Campbell's seventh emergency order expires
@@ -136,7 +146,7 @@ DESCRIPTION:DOE Order 202-26-51 keeps J.H. Campbell available through 12 Fe
 URL:https://kpa.energy/findings/#campbell-460
 END:VEVENT
 BEGIN:VEVENT
-UID:kpa-20270228-13@kpa.energy
+UID:kpa-20270228-14@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20270228
 SUMMARY:KPA call BF-1 resolves
@@ -145,7 +155,28 @@ DESCRIPTION:Less than 1.5 GW of US coal capacity retires in calendar 2026\,
 URL:https://kpa.energy/calls/#bf-1
 END:VEVENT
 BEGIN:VEVENT
-UID:kpa-20270331-14@kpa.energy
+UID:kpa-20270228-15@kpa.energy
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:KPA call RL-1 resolves
+DESCRIPTION:Average ROE granted in all US electric rate cases decided in 20
+ 26\, including limited-issue rider cases\, is below 2025's 9.84% in RRA's 
+ first-reported full-year figure https://kpa.energy/calls/#rl-1
+URL:https://kpa.energy/calls/#rl-1
+END:VEVENT
+BEGIN:VEVENT
+UID:kpa-20270331-16@kpa.energy
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20270331
+SUMMARY:Deadline for KPA's calls on Arizona's APS rate case
+DESCRIPTION:Settles KPA calls RL-2 (the commission votes on a final order b
+ y 31 March 2027\, very likely\, 85%) and RL-3 (the order sets a return on 
+ equity below 10%\, likely\, 75%). The commission's own deadline to vote is
+  31 December 2026. https://kpa.energy/findings/#pinnacle-capital-minus-4
+URL:https://kpa.energy/findings/#pinnacle-capital-minus-4
+END:VEVENT
+BEGIN:VEVENT
+UID:kpa-20270331-17@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20270331
 SUMMARY:KPA call LB-2 resolves
@@ -154,7 +185,26 @@ DESCRIPTION:US retail electricity sales set a new record in 2026\, above 20
 URL:https://kpa.energy/calls/#lb-2
 END:VEVENT
 BEGIN:VEVENT
-UID:kpa-20270430-15@kpa.energy
+UID:kpa-20270331-18@kpa.energy
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20270331
+SUMMARY:KPA call RL-2 resolves
+DESCRIPTION:Arizona Corporation Commission votes on a final order in the AP
+ S rate case\, including APS's proposed formula rate\, by 31 March 2027 htt
+ ps://kpa.energy/calls/#rl-2
+URL:https://kpa.energy/calls/#rl-2
+END:VEVENT
+BEGIN:VEVENT
+UID:kpa-20270331-19@kpa.energy
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20270331
+SUMMARY:KPA call RL-3 resolves
+DESCRIPTION:The ACC's final order in the APS rate case sets a return on equ
+ ity below 10% https://kpa.energy/calls/#rl-3
+URL:https://kpa.energy/calls/#rl-3
+END:VEVENT
+BEGIN:VEVENT
+UID:kpa-20270430-20@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20270430
 SUMMARY:KPA call CS-1 resolves
@@ -164,7 +214,7 @@ DESCRIPTION:Across ERCOT's 10 highest net-load hours\, Dec 2026-Feb 2027\,
 URL:https://kpa.energy/calls/#cs-1
 END:VEVENT
 BEGIN:VEVENT
-UID:kpa-20270430-16@kpa.energy
+UID:kpa-20270430-21@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20270430
 SUMMARY:KPA call CS-2 resolves
@@ -174,7 +224,7 @@ DESCRIPTION:On CAISO's highest winter net-load day\, Dec 2026-Feb 2027\, ne
 URL:https://kpa.energy/calls/#cs-2
 END:VEVENT
 BEGIN:VEVENT
-UID:kpa-20270531-17@kpa.energy
+UID:kpa-20270531-22@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20270531
 SUMMARY:KPA call BF-3 resolves
@@ -183,7 +233,7 @@ DESCRIPTION:J.H. Campbell is still listed as operating in EIA's inventory f
 URL:https://kpa.energy/calls/#bf-3
 END:VEVENT
 BEGIN:VEVENT
-UID:kpa-20271130-18@kpa.energy
+UID:kpa-20271130-23@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20271130
 SUMMARY:KPA call CS-3 resolves
@@ -192,7 +242,7 @@ DESCRIPTION:US battery capacity in operation reaches at least 70 GW in EIA
 URL:https://kpa.energy/calls/#cs-3
 END:VEVENT
 BEGIN:VEVENT
-UID:kpa-20271231-19@kpa.energy
+UID:kpa-20271231-24@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20271231
 SUMMARY:KPA call LB-3 resolves
@@ -201,7 +251,7 @@ DESCRIPTION:Less than 10% of the Texas large-load queue is approved to ener
 URL:https://kpa.energy/calls/#lb-3
 END:VEVENT
 BEGIN:VEVENT
-UID:kpa-20280131-20@kpa.energy
+UID:kpa-20280131-25@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20280131
 SUMMARY:KPA call SM-3 resolves
@@ -210,7 +260,7 @@ DESCRIPTION:GE Vernova's gas slot reservations not yet in backlog are below
 URL:https://kpa.energy/calls/#sm-3
 END:VEVENT
 BEGIN:VEVENT
-UID:kpa-20280229-21@kpa.energy
+UID:kpa-20280229-26@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20280229
 SUMMARY:KPA call BF-2 resolves
@@ -220,7 +270,7 @@ DESCRIPTION:At least half of the 6.2 GW of coal EIA lists (Sep 2026) to ret
 URL:https://kpa.energy/calls/#bf-2
 END:VEVENT
 BEGIN:VEVENT
-UID:kpa-20280229-22@kpa.energy
+UID:kpa-20280229-27@kpa.energy
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20280229
 SUMMARY:KPA call SM-2b resolves

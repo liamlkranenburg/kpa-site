@@ -660,3 +660,6 @@ footer{background:var(--delft-deep);color:var(--wash);font-family:var(--sans);fo
 .cs-1:hover{transform:translate(-12%,-5%) rotate(-5deg) scale(.96)}
 .cs-2:hover{transform:translate(-20%,-8%) rotate(-9deg) scale(.91)}
 .cs-3:hover{transform:translate(-27%,-10.5%) rotate(-13deg) scale(.86)}
+.ki-box .disclosure{margin:0 0 22px;padding:14px 18px;background:var(--porcelain);border:1px solid var(--line);border-left:4px solid var(--delft)}
+.ki-box .disclosure h2{font:700 13px var(--sans);color:var(--delft);margin:0 0 4px}
+.ki-box .disclosure p{margin:0;font-size:15px;color:var(--ink)}

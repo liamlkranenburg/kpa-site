@@ -180,5 +180,47 @@
   "status": "Open until November 2027",
   "outcome": null,
   "resolved_on": null
+ },
+ {
+  "id": "RL-1",
+  "brief": "Rate Limiter",
+  "version": "1.1",
+  "made_on": "2026-11-25",
+  "call": "Average ROE granted in all US electric rate cases decided in 2026, including limited-issue rider cases, is below 2025's 9.84% in RRA's first-reported full-year figure",
+  "band": "about even odds",
+  "probability": 0.5,
+  "resolves_by": "2027-02-28",
+  "resolution_source": "Regulatory Research Associates full-year 2026 tally (S&P Global Market Intelligence), headline all-case electric average as first reported",
+  "status": "Open until February 2027",
+  "outcome": null,
+  "resolved_on": null
+ },
+ {
+  "id": "RL-2",
+  "brief": "Rate Limiter",
+  "version": "1.1",
+  "made_on": "2026-11-25",
+  "call": "Arizona Corporation Commission votes on a final order in the APS rate case, including APS's proposed formula rate, by 31 March 2027",
+  "band": "very likely",
+  "probability": 0.85,
+  "resolves_by": "2027-03-31",
+  "resolution_source": "ACC order in APS rate case, docket E-01345A-25-0105",
+  "status": "Open until March 2027",
+  "outcome": null,
+  "resolved_on": null
+ },
+ {
+  "id": "RL-3",
+  "brief": "Rate Limiter",
+  "version": "1.1",
+  "made_on": "2026-11-25",
+  "call": "The ACC's final order in the APS rate case sets a return on equity below 10%",
+  "band": "likely",
+  "probability": 0.75,
+  "resolves_by": "2027-03-31",
+  "resolution_source": "ACC order in APS rate case, docket E-01345A-25-0105",
+  "status": "Open until March 2027",
+  "outcome": null,
+  "resolved_on": null
  }
 ]
