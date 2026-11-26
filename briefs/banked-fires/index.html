@@ -29,7 +29,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../style.css"><link rel="stylesheet" href="../../charts.css">
 <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
@@ -37,9 +37,9 @@
 <header class="mast">
   <div class="wrap">
     <a class="brand" href="../../" aria-label="Kranenburg Power Advisors, home"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M6 12 H26 V26 H40 V12 H60 V26 H74 V12 H94 V94 H6 Z" fill="#B8692E"/><g fill="#FFFFFF" transform="translate(16.66,70.21)"><path transform="translate(0.00,0) scale(0.03100,-0.03100)" d="M31 0V65L111 69Q111 85 112 100Q112 150 112 201V457Q112 507 112 558Q111 573 111 588L31 593V657H363V593L285 588Q285 573 285 558Q284 508 284 458V300L329 358L523 587L446 593V657H701V593L609 587L460 427L667 69L731 65V0H418V65L474 68L346 305L284 238V199Q284 150 285 101Q285 85 285 69L353 65V0Z"/><path transform="translate(23.68,0) scale(0.03100,-0.03100)" d="M31 0V65L111 69Q111 85 112 100Q112 150 112 201V457Q112 507 112 558Q111 573 111 588L31 593V657H324Q430 657 497.0 633.5Q564 610 596.0 565.5Q628 521 628 459Q628 398 597.5 350.5Q567 303 499.5 276.0Q432 249 322 249H288V196Q288 149 289 100Q289 85 289 70L384 65V0ZM289 593Q289 575 289 558Q288 507 288 457V311H316Q365 311 396.0 328.5Q427 346 441.5 379.0Q456 412 456 457Q456 526 422.5 559.5Q389 593 319 593Z"/><path transform="translate(44.61,0) scale(0.03100,-0.03100)" d="M11 0V65L86 70L291 659H423L631 67L698 63V0H369V63L451 68L412 187H195L158 70L237 65V0ZM392 250 297 541 278 444 216 250Z"/></g></svg><span class="brand-name"><span class="b1">KRANENBURG</span><span class="b2">POWER ADVISORS</span></span></a>
-    <nav class="menu" id="menu" aria-label="Main"><a href="../../briefs/" aria-current="page">Briefs</a><a href="../../findings/">Findings</a><a href="../../calls/">Calls</a><a href="../../data/">Data</a><a href="../../method/">Method</a><a href="../../about/">About</a><a class="mast-cta-m" href="../../briefs/banked-fires/">Latest brief</a></nav>
+    <nav class="menu" id="menu" aria-label="Main"><a href="../../briefs/" aria-current="page">Briefs</a><a href="../../findings/">Findings</a><a href="../../calls/">Calls</a><a href="../../data/">Data</a><a href="../../method/">Method</a><a href="../../about/">About</a><a class="mast-cta-m" href="../../briefs/cold-storage/">Latest brief</a></nav>
     <button class="search-btn" type="button" aria-haspopup="dialog" aria-label="Search the site (press /)">Search<kbd>/</kbd></button>
-    <a class="mast-cta" href="../../briefs/banked-fires/">Latest brief</a>
+    <a class="mast-cta" href="../../briefs/cold-storage/">Latest brief</a>
     <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
   </div>
 </header>
@@ -63,6 +63,8 @@
     </a>
   </div>
 </section>
+<div class="progress" aria-hidden="true"><span></span></div>
+<section class="keynums" aria-label="Key numbers"><div class="wrap"><a class="kn" href="#findings" data-open-tab="findings" data-finding="ordered-vs-kept-22"><b>22%</b><span>capacity factor of coal held open by federal order, Jan–Aug 2026</span></a><a class="kn" href="#findings" data-open-tab="findings" data-finding="on-time-88"><b>88%</b><span>of coal listed a year ahead retired in the year listed, 2016–24</span></a><a class="kn" href="#findings" data-open-tab="findings" data-finding="campbell-460"><b>$460</b><span>per megawatt-day: Campbell&#x27;s net cost under federal order</span></a><a class="kn" href="#findings" data-open-tab="findings" data-finding="delayed-split-46"><b>46%</b><span>of the 8.1 GW of delayed coal is held by federal emergency orders</span></a></div></section>
 <nav class="tabs" aria-label="Brief sections"><div class="wrap" role="tablist"><button class="tab" role="tab" id="tab-overview" aria-controls="panel-overview" aria-selected="true">Overview</button><button class="tab" role="tab" id="tab-charts" aria-controls="panel-charts" aria-selected="false">Charts</button><button class="tab" role="tab" id="tab-findings" aria-controls="panel-findings" aria-selected="false">Findings</button><button class="tab" role="tab" id="tab-sources" aria-controls="panel-sources" aria-selected="false">Sources</button></div></nav>
 
 <section class="panel" id="panel-overview" role="tabpanel" aria-labelledby="tab-overview">
@@ -86,6 +88,7 @@
     </ul></div>
       <div class="versions" id="versions">
         <h2>Versions and corrections</h2>
+        <p class="post-note"><b>Update since publication, 25 November 2026.</b> On 13 November DOE issued a seventh order (202-26-51) keeping J.H. Campbell open, in effect 15 November 2026 to 12 February 2027. The brief&#x27;s opening line describes the sixth order, which was due to expire on 14 November. EIA&#x27;s October inventory, released 24 November, still shows no US coal retired in 2026.</p>
         <p>No corrections so far.</p>
         <p>Published numbers are never changed silently; each correction is dated and listed here, in the PDF and on the <a class="text-link" href="../../updates/">updates page</a>.</p>
         <ul class="version-list">
@@ -129,22 +132,22 @@
     <div class="figs"><figure class="figure" id="fig1">
   <p class="flabel">Figure 1</p>
   <p class="ftitle">Coal listed to retire next year used to retire; since 2025, most has not</p>
-  <a href="figs/fig1.png" target="_blank" rel="noopener"><img src="figs/fig1.png" alt="Bars of the share of US coal capacity listed in each December EIA inventory to retire the following year that retired in that year: 86–100% in every year from 2016 to 2024 except 2023 (73%), then 27% of 8.1 GW in 2025 and none of 6.4 GW in 2026 through September." loading="lazy"></a>
+  <div class="ichart" data-spec="charts/fig1.json" data-head="none"></div><a class="png-fallback" href="figs/fig1.png" target="_blank" rel="noopener"><img src="figs/fig1.png" alt="Bars of the share of US coal capacity listed in each December EIA inventory to retire the following year that retired in that year: 86–100% in every year from 2016 to 2024 except 2023 (73%), then 27% of 8.1 GW in 2025 and none of 6.4 GW in 2026 through September." loading="lazy"></a>
   <figcaption>Source: KPA analysis of EIA Form 860M data.</figcaption>
 </figure><figure class="figure" id="fig2">
   <p class="flabel">Figure 2</p>
   <p class="ftitle">US coal retirements fell to 2.7 GW in 2025, and none so far in 2026</p>
-  <a href="figs/fig2.png" target="_blank" rel="noopener"><img src="figs/fig2.png" alt="Bars of US coal capacity retired each year from 2012 to September 2026: between about 4 and 15 GW a year through 2024, with highs of 14.9 GW in 2015 and 13.7 GW in 2022, then 2.7 GW in 2025 and none so far in 2026." loading="lazy"></a>
+  <div class="ichart" data-spec="charts/fig2.json" data-head="none"></div><a class="png-fallback" href="figs/fig2.png" target="_blank" rel="noopener"><img src="figs/fig2.png" alt="Bars of US coal capacity retired each year from 2012 to September 2026: between about 4 and 15 GW a year through 2024, with highs of 14.9 GW in 2015 and 13.7 GW in 2022, then 2.7 GW in 2025 and none so far in 2026." loading="lazy"></a>
   <figcaption>Source: KPA analysis of EIA Form 860M data.</figcaption>
 </figure><figure class="figure" id="fig3">
   <p class="flabel">Figure 3</p>
   <p class="ftitle">Plants owners kept are running; several kept by order are not</p>
-  <a href="figs/fig3.png" target="_blank" rel="noopener"><img src="figs/fig3.png" alt="Horizontal bars of January–August 2026 capacity factors for coal units whose planned 2025 or 2026 retirement passed or moved past 2026, split by who kept them. Units under DOE orders: Centralia 2 at 0%, Craig 1 at 3%, Schahfer 17–18 at 8%, Culley 2 at 10%, Campbell at 40% and Stanton 1 at 43%, averaging 22%. Units owners or grid contracts kept: GREC 2 at 23%, Kingston 7–9 at 29%, Brandon Shores at 34%, South Oak Creek 7–8 at 38%, Cumberland 2 at 44% and Comanche 2 at 60%, averaging 38%; the US fleet ran at 47%." loading="lazy"></a>
+  <div class="ichart" data-spec="charts/fig3.json" data-head="none"></div><a class="png-fallback" href="figs/fig3.png" target="_blank" rel="noopener"><img src="figs/fig3.png" alt="Horizontal bars of January–August 2026 capacity factors for coal units whose planned 2025 or 2026 retirement passed or moved past 2026, split by who kept them. Units under DOE orders: Centralia 2 at 0%, Craig 1 at 3%, Schahfer 17–18 at 8%, Culley 2 at 10%, Campbell at 40% and Stanton 1 at 43%, averaging 22%. Units owners or grid contracts kept: GREC 2 at 23%, Kingston 7–9 at 29%, Brandon Shores at 34%, South Oak Creek 7–8 at 38%, Cumberland 2 at 44% and Comanche 2 at 60%, averaging 38%; the US fleet ran at 47%." loading="lazy"></a>
   <figcaption>Source: KPA analysis of EIA-923 and EIA Form 860M data; fleet from EIA <i>Electric Power Monthly</i>.</figcaption>
 </figure><figure class="figure" id="fig4">
   <p class="flabel">Figure 4</p>
   <p class="ftitle">Scheduled coal retirements peak at 12.1 GW in 2028</p>
-  <a href="figs/fig4.png" target="_blank" rel="noopener"><img src="figs/fig4.png" alt="Bars of operating US coal capacity by planned retirement year in EIA&#x27;s September 2026 inventory: 3.6 GW in 2026, 6.2 GW in 2027 (0.7 GW of it TVA units its board voted to keep), 12.1 GW in 2028 (1.2 GW TVA), 3.3 GW in 2029 and 3.5 GW in 2030; lines show that at 2025&#x27;s 27% follow-through only about 1.5 GW of the rest would retire in 2027 and 3.0 GW in 2028." loading="lazy"></a>
+  <div class="ichart" data-spec="charts/fig4.json" data-head="none"></div><a class="png-fallback" href="figs/fig4.png" target="_blank" rel="noopener"><img src="figs/fig4.png" alt="Bars of operating US coal capacity by planned retirement year in EIA&#x27;s September 2026 inventory: 3.6 GW in 2026, 6.2 GW in 2027 (0.7 GW of it TVA units its board voted to keep), 12.1 GW in 2028 (1.2 GW TVA), 3.3 GW in 2029 and 3.5 GW in 2030; lines show that at 2025&#x27;s 27% follow-through only about 1.5 GW of the rest would retire in 2027 and 3.0 GW in 2028." loading="lazy"></a>
   <figcaption>Source: KPA analysis of EIA Form 860M, September 2026.</figcaption>
 </figure></div>
   </div>
@@ -254,6 +257,7 @@
   </ol>
   </div>
 </section>
+<section class="sec tight" aria-label="More briefs"><div class="wrap"><nav class="brief-nav"><a class="prev" href="../../briefs/slot-machine/"><small>Previous brief · No. 2</small><strong>Slot Machine</strong></a><a class="next" href="../../briefs/cold-storage/"><small>Next brief · No. 4</small><strong>Cold Storage</strong></a></nav></div></section>
 
 <section class="sec tight" id="subscribe" aria-labelledby="sub-title">
   <div class="wrap"><div class="subscribe">
@@ -283,7 +287,7 @@
       <p>Short decision briefs on energy and markets. One argument per issue, every number sourced.</p>
     </div>
     <div><h2>Read</h2><ul>
-      <li><a href="../../briefs/banked-fires/">Latest brief</a></li>
+      <li><a href="../../briefs/cold-storage/">Latest brief</a></li>
       <li><a href="../../briefs/">All briefs</a></li>
       <li><a href="../../findings/">Findings</a></li>
       <li><a href="../../calls/">Calls</a></li>
@@ -310,6 +314,6 @@
     <span>Published by Kranenburg Power Advisors. Researched and drafted with AI assistance. For information only; not investment, legal or regulatory advice.</span>
   </div>
 </footer>
-<script src="../../site.js"></script>
+<script src="../../site.js"></script><script src="../../charts.js" defer></script>
 </body>
 </html>

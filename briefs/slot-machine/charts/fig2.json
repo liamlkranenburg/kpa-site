@@ -1,0 +1,92 @@
+{
+ "type": "stacked",
+ "figure": "Figure 2",
+ "data": "fig2_us_planned_gas_by_vintage.csv",
+ "title": "Planned US gas capacity tripled in four years; construction did not keep pace",
+ "subtitle": "Planned US natural gas capacity in each September inventory, GW; share under construction below each bar",
+ "units": "GW",
+ "aspect": 2.0,
+ "aspectNarrow": 1.0,
+ "barWidth": 0.58,
+ "endLabels": true,
+ "categories": [
+  "Sep\n2022",
+  "Sep\n2023",
+  "Sep\n2024",
+  "Sep\n2025",
+  "Sep\n2026"
+ ],
+ "categoryName": "EIA-860M inventory",
+ "y": {
+  "min": 0,
+  "max": 80,
+  "ticks": [
+   0,
+   20,
+   40,
+   60,
+   80
+  ],
+  "title": "GW"
+ },
+ "series": [
+  {
+   "name": "Under construction",
+   "label": "Under construction",
+   "color": "delft",
+   "values": [
+    9.12,
+    5.78,
+    5.42,
+    9.57,
+    13.15
+   ]
+  },
+  {
+   "name": "Not yet under construction",
+   "label": "Not yet under construction",
+   "color": "copper",
+   "values": [
+    13.87,
+    11.33,
+    15.18,
+    30.91,
+    57.96
+   ]
+  }
+ ],
+ "totals": [
+  22.99,
+  17.11,
+  20.61,
+  40.48,
+  71.1
+ ],
+ "totalName": "Total planned",
+ "totalFmt": {
+  "decimals": 0,
+  "suffix": ""
+ },
+ "rowBelow": {
+  "label": "Under construction",
+  "name": "Share under construction (under construction ÷ total planned)",
+  "values": [
+   0.3967,
+   0.3378,
+   0.263,
+   0.2364,
+   0.185
+  ],
+  "fmt": {
+   "scale": 100,
+   "decimals": 0,
+   "suffix": "%"
+  },
+  "highlight": {
+   "index": 4,
+   "color": "delft"
+  }
+ },
+ "derived": "rowBelow = under_construction_gw / total_planned_gw",
+ "source": "Source: KPA analysis of EIA Form 860M data."
+}

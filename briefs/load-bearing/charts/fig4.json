@@ -1,0 +1,394 @@
+{
+ "type": "scatter",
+ "figure": "Figure 4",
+ "data": "fig4_state_prices.csv",
+ "title": "Household price increases tracked PJM membership, not data center load",
+ "subtitle": "44 states: data center share of electricity use, 2023, against residential price change, 2021–25",
+ "aspect": 2.2,
+ "aspectNarrow": 0.95,
+ "x": {
+  "name": "Data center share of state electricity use, 2023",
+  "labelName": "State",
+  "min": -0.5,
+  "max": 28,
+  "ticks": [
+   0,
+   5,
+   10,
+   15,
+   20,
+   25
+  ],
+  "fmt": {
+   "suffix": "%"
+  },
+  "tipFmt": {
+   "suffix": "%"
+  },
+  "title": "Data center share of state electricity use, 2023 (%)",
+  "titleNarrow": "Data center share of electricity use, 2023"
+ },
+ "y": {
+  "name": "Residential price change, 2021–25",
+  "min": 0,
+  "max": 70,
+  "ticks": [
+   0,
+   10,
+   20,
+   30,
+   40,
+   50,
+   60,
+   70
+  ],
+  "title": "Price change, %",
+  "fmt": {
+   "suffix": "%"
+  },
+  "tipFmt": {
+   "suffix": "%",
+   "sign": true
+  }
+ },
+ "series": [
+  {
+   "name": "Other states",
+   "color": "mid",
+   "labelColor": "delft",
+   "points": [
+    [
+     15.42,
+     8.94,
+     "ND",
+     "North Dakota"
+    ],
+    [
+     11.7,
+     12.09,
+     "NE",
+     "Nebraska"
+    ],
+    [
+     11.43,
+     6.99,
+     "IA",
+     "Iowa"
+    ],
+    [
+     11.39,
+     35.97,
+     "OR",
+     "Oregon"
+    ],
+    [
+     11.26,
+     19.7,
+     "WY",
+     "Wyoming"
+    ],
+    [
+     8.69,
+     15.4,
+     "NV",
+     "Nevada"
+    ],
+    [
+     7.68,
+     24.83,
+     "UT",
+     "Utah"
+    ],
+    [
+     7.43,
+     21.69,
+     "AZ",
+     "Arizona"
+    ],
+    [
+     5.69,
+     30.27,
+     "WA",
+     "Washington"
+    ],
+    [
+     5.48,
+     34.07,
+     "IL",
+     "Illinois"
+    ],
+    [
+     4.59,
+     27.17,
+     "TX",
+     "Texas"
+    ],
+    [
+     4.26,
+     17.83,
+     "GA",
+     "Georgia"
+    ],
+    [
+     3.71,
+     15.78,
+     "MT",
+     "Montana"
+    ],
+    [
+     3.7,
+     37.38,
+     "CA",
+     "California"
+    ],
+    [
+     2.84,
+     35.47,
+     "NY",
+     "New York"
+    ],
+    [
+     2.66,
+     20.05,
+     "CO",
+     "Colorado"
+    ],
+    [
+     2.45,
+     17.57,
+     "SC",
+     "South Carolina"
+    ],
+    [
+     2.15,
+     14.17,
+     "KY",
+     "Kentucky"
+    ],
+    [
+     2.08,
+     32.85,
+     "MA",
+     "Massachusetts"
+    ],
+    [
+     1.92,
+     23.67,
+     "NC",
+     "North Carolina"
+    ],
+    [
+     1.76,
+     20.09,
+     "OK",
+     "Oklahoma"
+    ],
+    [
+     1.71,
+     24.15,
+     "AL",
+     "Alabama"
+    ],
+    [
+     1.48,
+     9.84,
+     "NM",
+     "New Mexico"
+    ],
+    [
+     1.3,
+     19.42,
+     "TN",
+     "Tennessee"
+    ],
+    [
+     1.24,
+     17.26,
+     "MN",
+     "Minnesota"
+    ],
+    [
+     1.21,
+     16.56,
+     "MO",
+     "Missouri"
+    ],
+    [
+     0.95,
+     33.77,
+     "CT",
+     "Connecticut"
+    ],
+    [
+     0.57,
+     16.44,
+     "ID",
+     "Idaho"
+    ],
+    [
+     0.56,
+     27.82,
+     "FL",
+     "Florida"
+    ],
+    [
+     0.52,
+     14.2,
+     "MI",
+     "Michigan"
+    ],
+    [
+     0.52,
+     9.0,
+     "SD",
+     "South Dakota"
+    ],
+    [
+     0.23,
+     32.2,
+     "RI",
+     "Rhode Island"
+    ],
+    [
+     0.22,
+     62.69,
+     "ME",
+     "Maine"
+    ],
+    [
+     0.21,
+     24.52,
+     "WI",
+     "Wisconsin"
+    ],
+    [
+     0.19,
+     19.37,
+     "IN",
+     "Indiana"
+    ],
+    [
+     0.16,
+     23.58,
+     "NH",
+     "New Hampshire"
+    ],
+    [
+     0.1,
+     20.63,
+     "HI",
+     "Hawaii"
+    ],
+    [
+     0.08,
+     13.61,
+     "LA",
+     "Louisiana"
+    ],
+    [
+     0.02,
+     11.25,
+     "KS",
+     "Kansas"
+    ]
+   ]
+  },
+  {
+   "name": "PJM states",
+   "color": "copper",
+   "points": [
+    [
+     25.59,
+     27.76,
+     "VA",
+     "Virginia"
+    ],
+    [
+     5.42,
+     37.49,
+     "NJ",
+     "New Jersey"
+    ],
+    [
+     3.16,
+     40.19,
+     "PA",
+     "Pennsylvania"
+    ],
+    [
+     1.58,
+     32.34,
+     "OH",
+     "Ohio"
+    ],
+    [
+     0.16,
+     48.86,
+     "MD",
+     "Maryland"
+    ]
+   ]
+  }
+ ],
+ "pointLabels": {
+  "VA": [
+   7.0,
+   10.4
+  ],
+  "MD": [
+   7.0,
+   -0.0
+  ],
+  "PA": [
+   7.0,
+   -0.0
+  ],
+  "NJ": [
+   7.0,
+   -2.6
+  ],
+  "OH": [
+   7.0,
+   3.9
+  ],
+  "ND": [
+   7.0,
+   5.2
+  ],
+  "NE": [
+   7.0,
+   -0.0
+  ],
+  "OR": [
+   7.0,
+   -0.0
+  ],
+  "ME": [
+   7.0,
+   -0.0
+  ],
+  "CA": [
+   7.0,
+   5.2
+  ],
+  "IA": [
+   7.0,
+   6.5
+  ]
+ },
+ "notes": [
+  {
+   "x": 18,
+   "y": 63,
+   "text": "PJM states",
+   "color": "copper"
+  },
+  {
+   "x": 18,
+   "y": 56,
+   "text": "Other states",
+   "color": "mid"
+  }
+ ],
+ "source": "Source: KPA analysis of EPRI (2023 shares) and EIA (residential prices) data."
+}

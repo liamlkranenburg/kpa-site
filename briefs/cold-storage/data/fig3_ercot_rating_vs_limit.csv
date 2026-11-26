@@ -1,0 +1,4 @@
+# Figure 3: ERCOT battery fleet power rating and the largest peak net-load cut it could hold at the Winter Storm Fern peak (26 January 2026) and the summer 2025 peak (18 August 2025). Source: KPA analysis of EIA-930 and EIA Form 860M. Kranenburg Power Advisors, Cold Storage v1.0
+fleet,rating_mw,energy_mwh,limit_fern_peak_mw,limit_summer_2025_peak_mw
+January 2026,14209,22079,3434,
+October 2026,19610,33026,4215,10539.0

@@ -1,0 +1,73 @@
+{
+ "type": "bar",
+ "figure": "Figure 3",
+ "data": "fig3_flexible_headroom.csv",
+ "title": "Modest flexibility matches forecast data center growth, not total growth",
+ "subtitle": "Load the existing grid could absorb, by share of annual energy curtailed, gigawatts (GW)",
+ "units": "GW",
+ "aspect": 1.7,
+ "aspectNarrow": 1.0,
+ "barWidth": 0.55,
+ "categories": [
+  "Contracted\ntoday",
+  "0.25%",
+  "0.5%",
+  "1%"
+ ],
+ "categoryName": "Case",
+ "categoryNotes": [
+  "Contracted today (Google demand response)",
+  "Headroom at 0.25% curtailment",
+  "Headroom at 0.5% curtailment",
+  "Headroom at 1% curtailment"
+ ],
+ "y": {
+  "min": 0,
+  "max": 190,
+  "ticks": [
+   0,
+   25,
+   50,
+   75,
+   100,
+   125,
+   150,
+   175
+  ],
+  "title": "GW"
+ },
+ "series": [
+  {
+   "name": "Load the grid could absorb",
+   "color": "delft",
+   "colors": [
+    "copper",
+    "mid",
+    "copper",
+    "copper"
+   ],
+   "values": [
+    1,
+    76,
+    98,
+    126
+   ]
+  }
+ ],
+ "refs": [
+  {
+   "value": 90,
+   "label": "Data center growth, ~90 GW",
+   "color": "delft",
+   "dash": "7 4"
+  },
+  {
+   "value": 166,
+   "label": "All growth, 166 GW",
+   "color": "grey",
+   "dash": "2 3"
+  }
+ ],
+ "markersNote": "refs = forecast growth 2025-30 rows of the CSV",
+ "source": "Source: KPA analysis of Duke Nicholas Institute (2025), Grid Strategies (2025) and Google (2026) figures."
+}

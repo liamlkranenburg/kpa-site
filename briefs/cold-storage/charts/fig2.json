@@ -1,0 +1,116 @@
+{
+ "type": "bar",
+ "horizontal": true,
+ "figure": "Figure 2",
+ "data": "fig2_peak_shaving_share.csv",
+ "title": "Battery fleets could hold far smaller cuts at winter's peaks than summer's",
+ "subtitle": "Deepest cut in peak net load each region's October 2026 battery fleet could hold, as a share of its power rating, at the winter 2025–26 and summer 2025 peaks; ticks show NERC's winter on-peak count for the area",
+ "units": "",
+ "categories": [
+  "Six regions",
+  "ERCOT (Texas)",
+  "CAISO (California)",
+  "Southwest (four utilities)",
+  "Arizona Public Service",
+  "NV Energy",
+  "PNM (New Mexico)",
+  "Salt River Project"
+ ],
+ "categoryName": "Region",
+ "bold": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "indent": [
+  4,
+  5,
+  6,
+  7
+ ],
+ "rowGap": 12,
+ "x": {
+  "min": 0,
+  "max": 100,
+  "ticks": [
+   0,
+   25,
+   50,
+   75,
+   100
+  ],
+  "fmt": {
+   "suffix": "%"
+  }
+ },
+ "series": [
+  {
+   "name": "Summer 2025 peak",
+   "color": "delft",
+   "scale": 100,
+   "values": [
+    0.647,
+    0.537,
+    0.723,
+    0.756,
+    0.654,
+    0.859,
+    1.0,
+    0.706
+   ],
+   "fmt": {
+    "decimals": 1,
+    "suffix": "%"
+   },
+   "labelFmt": {
+    "decimals": 0,
+    "suffix": "%"
+   }
+  },
+  {
+   "name": "Winter 2025–26 peak",
+   "color": "copper",
+   "scale": 100,
+   "values": [
+    0.342,
+    0.215,
+    0.43,
+    0.471,
+    0.406,
+    0.465,
+    0.484,
+    0.597
+   ],
+   "fmt": {
+    "decimals": 1,
+    "suffix": "%"
+   },
+   "labelFmt": {
+    "decimals": 0,
+    "suffix": "%"
+   }
+  }
+ ],
+ "markers": [
+  {
+   "name": "NERC winter on-peak count",
+   "label": "Black tick: NERC’s winter count",
+   "color": "ink",
+   "values": [
+    null,
+    15.8,
+    85.0,
+    85.0,
+    null,
+    null,
+    null,
+    null
+   ],
+   "fmt": {
+    "suffix": "%"
+   }
+  }
+ ],
+ "source": "Source: KPA analysis of EIA-930 and EIA Form 860M data; NERC."
+}

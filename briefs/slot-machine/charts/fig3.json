@@ -1,0 +1,72 @@
+{
+ "type": "stacked",
+ "horizontal": true,
+ "figure": "Figure 3",
+ "data": "fig3_real_status_of_not_started_gas.csv",
+ "title": "Of the gas EIA lists as not seeking approval, 41% is approved or building",
+ "subtitle": "Status found by KPA, October 2026, of 2027–30 US gas that EIA codes as not yet seeking approval, GW",
+ "units": "GW",
+ "categories": [
+  "Under construction",
+  "Approved",
+  "Filed with regulators",
+  "Early: announced only",
+  "Troubled"
+ ],
+ "categoryName": "Status",
+ "barHeight": 24,
+ "x": {
+  "min": 0,
+  "max": 16,
+  "ticks": [
+   0,
+   4,
+   8,
+   12,
+   16
+  ]
+ },
+ "series": [
+  {
+   "name": "Other buyers",
+   "color": "delft",
+   "values": [
+    6.48,
+    3.54,
+    2.6,
+    3.4,
+    1.76
+   ]
+  },
+  {
+   "name": "For a data center campus",
+   "color": "copper",
+   "values": [
+    5.42,
+    null,
+    3.24,
+    10.23,
+    0.6
+   ]
+  }
+ ],
+ "totalFmt": {
+  "decimals": 1,
+  "suffix": " GW"
+ },
+ "totalName": "Total",
+ "notes": [
+  {
+   "i": 3,
+   "v": 13.43,
+   "dx": -8,
+   "text": "Fermi America, Project Matador, 10.2 GW",
+   "color": "white",
+   "anchor": "end",
+   "size": 11,
+   "minWidth": 720
+  }
+ ],
+ "omitted": "UNVERIFIED (0.08 GW, other buyers) is in the CSV but not drawn in the printed figure",
+ "source": "Source: KPA plant-by-plant check of EIA Form 860M, September 2026."
+}

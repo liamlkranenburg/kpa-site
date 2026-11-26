@@ -1,5 +1,17 @@
 [
  {
+  "no": 4,
+  "title": "Cold Storage",
+  "subtitle": "Batteries now lead winter capacity additions, but long winter peaks outlast them",
+  "date": "2026-11-25",
+  "version": "1.0",
+  "pages": 9,
+  "url": "https://kpa.energy/briefs/cold-storage/",
+  "pdf": "https://kpa.energy/briefs/cold-storage/cold-storage.pdf",
+  "data": "https://kpa.energy/briefs/cold-storage/cold-storage-data.zip",
+  "earlier_versions": []
+ },
+ {
   "no": 3,
   "title": "Banked Fires",
   "subtitle": "US coal retirements have stalled, and plants owners keep run harder than those held by order",

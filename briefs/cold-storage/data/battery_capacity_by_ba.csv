@@ -1,0 +1,9 @@
+# Battery capacity in service by balancing authority, EIA-860M October 2026 (energy source MWH; nameplate MW and MWh; operating month on or before the month shown, not retired). US total = all operating batteries in the October 2026 inventory.
+ba,mw_jan2025,mw_jul2025,mw_jan2026,mwh_jan2026,mw_oct2026,mwh_oct2026
+ERCO,8529,10771,14209,22079,19610,33026
+CISO,11446,13607,15788,54162,17266,59726
+AZPS,608,2240,2353,8777,3270,11644
+SRP,1133,1133,1333,5244,1668,6584
+NEVP,1035,1035,1135,2490,1535,4090
+PNM,638,638,1008,4139,1068,4379
+US_total,,,,,56781,

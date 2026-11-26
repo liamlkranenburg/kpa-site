@@ -1,0 +1,81 @@
+{
+ "type": "stacked",
+ "figure": "Figure 4",
+ "data": "fig4_coal_retirement_schedule.csv",
+ "title": "Scheduled coal retirements peak at 12.1 GW in 2028",
+ "subtitle": "Operating US coal capacity by planned retirement year, GW; TVA units its board voted to keep shown in grey; copper lines show the rest of 2027–28 at 2025's 27% follow-through",
+ "units": "GW",
+ "aspect": 2.4,
+ "aspectNarrow": 1.0,
+ "barWidth": 0.5,
+ "categories": [
+  "Rest of\n2026",
+  "2027",
+  "2028",
+  "2029",
+  "2030"
+ ],
+ "categoryName": "Planned retirement year",
+ "y": {
+  "min": 0,
+  "max": 14.5,
+  "ticks": [
+   0,
+   5,
+   10
+  ],
+  "title": "GW"
+ },
+ "series": [
+  {
+   "name": "Other scheduled coal",
+   "color": "delft",
+   "values": [
+    3.58,
+    5.46,
+    10.88,
+    3.32,
+    3.49
+   ]
+  },
+  {
+   "name": "TVA units its board voted to keep",
+   "label": "TVA units its board voted in February to keep",
+   "color": "mid",
+   "values": [
+    0.0,
+    0.7,
+    1.24,
+    0.0,
+    0.0
+   ]
+  }
+ ],
+ "totals": [
+  3.58,
+  6.16,
+  12.12,
+  3.32,
+  3.49
+ ],
+ "totalName": "Scheduled in EIA-860M",
+ "totalFmt": {
+  "decimals": 1,
+  "suffix": ""
+ },
+ "markers": [
+  {
+   "name": "Other, at 2025’s 27% follow-through",
+   "label": "Copper lines: the rest at 2025’s 27% follow-through",
+   "color": "copper",
+   "values": [
+    null,
+    1.48,
+    2.96,
+    null,
+    null
+   ]
+  }
+ ],
+ "source": "Source: KPA analysis of EIA Form 860M, September 2026."
+}

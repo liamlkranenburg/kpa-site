@@ -1,0 +1,151 @@
+{
+ "type": "bar",
+ "figure": "Figure 1",
+ "data": "fig1_coal_retirement_followthrough.csv",
+ "title": "Coal listed to retire next year used to retire; since 2025, most has not",
+ "subtitle": "Share of US coal capacity listed in each December EIA inventory to retire the following year that retired in that year; GW listed below each bar (2026: January to September)",
+ "units": "",
+ "aspect": 2.5,
+ "aspectNarrow": 1.0,
+ "barWidth": 0.62,
+ "categories": [
+  "2016",
+  "2017",
+  "2018",
+  "2019",
+  "2020",
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025",
+  "2026"
+ ],
+ "categoriesShort": [
+  "’16",
+  "’17",
+  "’18",
+  "’19",
+  "’20",
+  "’21",
+  "’22",
+  "’23",
+  "’24",
+  "’25",
+  "’26"
+ ],
+ "categoryName": "Retirement year listed",
+ "categoryNotes": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  "January to September 2026"
+ ],
+ "y": {
+  "min": 0,
+  "max": 112,
+  "ticks": [
+   0,
+   25,
+   50,
+   75,
+   100
+  ],
+  "title": "% retired that year"
+ },
+ "series": [
+  {
+   "name": "Share retired that year",
+   "color": "delft",
+   "scale": 100,
+   "values": [
+    0.925,
+    0.934,
+    0.863,
+    0.905,
+    0.971,
+    1.0,
+    0.892,
+    0.727,
+    1.0,
+    0.272,
+    0.0
+   ],
+   "fmt": {
+    "decimals": 1,
+    "suffix": "%"
+   },
+   "labelFmt": {
+    "decimals": 0,
+    "suffix": "%"
+   },
+   "extra": {
+    "name": "GW retired that year",
+    "values": [
+     4.93,
+     4.56,
+     10.27,
+     3.61,
+     5.93,
+     2.03,
+     10.01,
+     6.5,
+     2.3,
+     2.21,
+     0.0
+    ],
+    "fmt": {
+     "suffix": " GW"
+    }
+   }
+  }
+ ],
+ "highlight": [
+  9,
+  10
+ ],
+ "keyLabels": [
+  9,
+  10
+ ],
+ "refs": [
+  {
+   "value": 88.45,
+   "label": "2016–24\naverage, 88%",
+   "color": "grey",
+   "dash": "2 3",
+   "atIndex": 9,
+   "labelNarrow": "2016–24\navg, 88%"
+  }
+ ],
+ "derived": "ref = sum(gw_retired_that_year 2016-24) / (sum(gw_listed_previous_december 2016-24) - 0.67 GW missing in 2021)",
+ "rowBelow": {
+  "label": "GW listed",
+  "name": "GW listed the previous December",
+  "values": [
+   5.33,
+   4.88,
+   11.9,
+   3.99,
+   6.1,
+   2.7,
+   11.22,
+   8.94,
+   2.3,
+   8.13,
+   6.36
+  ],
+  "fmt": {
+   "decimals": 1,
+   "suffix": ""
+  }
+ },
+ "source": "Source: KPA analysis of EIA Form 860M data."
+}

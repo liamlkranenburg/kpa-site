@@ -1,0 +1,121 @@
+{
+ "type": "bar",
+ "horizontal": true,
+ "figure": "Figure 3",
+ "data": "fig3_delayed_coal_capacity_factor.csv",
+ "title": "Plants owners kept are running; several kept by order are not",
+ "subtitle": "Capacity factor, January–August 2026, of US coal units whose planned 2025 or 2026 retirement has passed or moved past 2026, by who kept them",
+ "units": "",
+ "categories": [
+  "Comanche 2 (CO)",
+  "Cumberland 2 (TN)",
+  "Stanton 1 (FL)",
+  "J.H. Campbell (MI)",
+  "South Oak Creek 7–8 (WI)",
+  "Brandon Shores (MD)",
+  "Kingston 7–9 (TN)",
+  "GREC 2 (OK)",
+  "Culley 2 (IN)",
+  "Schahfer 17–18 (IN)",
+  "Craig 1 (CO)",
+  "Centralia 2 (WA)"
+ ],
+ "categoryName": "Plant",
+ "barHeight": 18,
+ "rowGap": 9,
+ "x": {
+  "min": 0,
+  "max": 75,
+  "ticks": [
+   0,
+   25,
+   50,
+   75
+  ],
+  "fmt": {
+   "suffix": "%"
+  }
+ },
+ "series": [
+  {
+   "name": "Capacity factor, Jan–Aug 2026",
+   "color": "delft",
+   "scale": 100,
+   "values": [
+    0.596,
+    0.438,
+    0.429,
+    0.402,
+    0.384,
+    0.339,
+    0.291,
+    0.229,
+    0.098,
+    0.077,
+    0.031,
+    0.0
+   ],
+   "colors": [
+    "delft",
+    "delft",
+    "copper",
+    "copper",
+    "delft",
+    "delft",
+    "delft",
+    "delft",
+    "copper",
+    "copper",
+    "copper",
+    "copper"
+   ],
+   "fmt": {
+    "decimals": 1,
+    "suffix": "%"
+   },
+   "labelFmt": {
+    "decimals": 0,
+    "suffix": "%"
+   },
+   "extra": {
+    "name": "Net summer capacity",
+    "values": [
+     335,
+     1231,
+     453,
+     1331,
+     617,
+     1273,
+     444,
+     479,
+     90,
+     722,
+     427,
+     670
+    ],
+    "fmt": {
+     "suffix": " MW"
+    }
+   }
+  }
+ ],
+ "key": [
+  {
+   "text": "Kept by a DOE emergency order",
+   "color": "copper"
+  },
+  {
+   "text": "Kept by its owner or a contract",
+   "color": "delft"
+  }
+ ],
+ "refs": [
+  {
+   "value": 46.8,
+   "label": "US coal fleet, 47%",
+   "color": "grey"
+  }
+ ],
+ "refSource": "46.8% fleet capacity factor: EIA Electric Power Monthly Table 6.07.A, as hard-coded in src/make_figs.py",
+ "source": "Source: KPA analysis of EIA-923 and EIA Form 860M data; fleet from EIA Electric Power Monthly."
+}

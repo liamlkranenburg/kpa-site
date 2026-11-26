@@ -1,0 +1,85 @@
+{
+ "type": "stacked",
+ "figure": "Figure 1",
+ "data": "fig1_gev_gas_book.csv",
+ "title": "GE Vernova's gas book more than doubled in 18 months, to 122 GW",
+ "subtitle": "GE Vernova gas power equipment under contract at quarter end, gigawatts (GW): firm orders and slot reservations, March 2025 to September 2026",
+ "units": "GW",
+ "aspect": 2.3,
+ "aspectNarrow": 1.0,
+ "barWidth": 0.6,
+ "endLabels": true,
+ "categories": [
+  "Q1\n’25",
+  "Q2\n’25",
+  "Q3\n’25",
+  "Q4\n’25",
+  "Q1\n’26",
+  "Q2\n’26",
+  "Q3\n’26"
+ ],
+ "categoryName": "Quarter",
+ "y": {
+  "min": 0,
+  "max": 150,
+  "ticks": [
+   0,
+   25,
+   50,
+   75,
+   100,
+   125,
+   150
+  ],
+  "title": "GW"
+ },
+ "series": [
+  {
+   "name": "Firm orders",
+   "label": "Firm orders",
+   "color": "delft",
+   "values": [
+    29,
+    29,
+    33,
+    40,
+    44,
+    53,
+    64
+   ]
+  },
+  {
+   "name": "Slot reservations",
+   "label": "Slot reservations",
+   "color": "copper",
+   "values": [
+    21,
+    25,
+    29,
+    43,
+    56,
+    63,
+    58
+   ]
+  }
+ ],
+ "totals": [
+  50,
+  55,
+  62,
+  83,
+  100,
+  116,
+  122
+ ],
+ "totalName": "Total under contract",
+ "refs": [
+  {
+   "value": 130,
+   "label": "GE year-end 2026 target, 130 GW",
+   "color": "grey",
+   "dash": "2 3"
+  }
+ ],
+ "source": "Source: KPA analysis of GE Vernova quarterly earnings releases."
+}

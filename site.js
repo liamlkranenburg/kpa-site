@@ -194,3 +194,35 @@
     });
   });
 })();
+
+// Redesign: numbers count up once when first seen; calls bars fill; brief pages show reading progress
+(function(){
+  var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function countUp(el){
+    var txt=el.textContent,m=txt.match(/^([^\d]*)(\d[\d,]*(?:\.\d+)?)(.*)$/);
+    if(!m||/\d/.test(m[3])||reduce)return;
+    var end=parseFloat(m[2].replace(/,/g,'')),dec=(m[2].split('.')[1]||'').length,comma=m[2].indexOf(',')>-1,t0=null,dur=900;
+    function fmt(v){var s=v.toFixed(dec);return comma?Number(s).toLocaleString('en-US',{minimumFractionDigits:dec,maximumFractionDigits:dec}):s}
+    function step(t){if(!t0)t0=t;var k=Math.min(1,(t-t0)/dur),e=1-Math.pow(1-k,3);el.textContent=m[1]+fmt(end*e)+m[3];if(k<1)requestAnimationFrame(step);else el.textContent=txt}
+    requestAnimationFrame(step);
+  }
+  var counts=[].slice.call(document.querySelectorAll('[data-count]')),boards=[].slice.call(document.querySelectorAll('.calls-board'));
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(en){
+      if(!en.isIntersecting)return;io.unobserve(en.target);
+      if(en.target.classList.contains('calls-board'))en.target.classList.add('seen');else countUp(en.target);
+    })},{threshold:.4});
+    counts.concat(boards).forEach(function(el){io.observe(el)});
+  }else boards.forEach(function(b){b.classList.add('seen')});
+
+  var bar=document.querySelector('.progress span');
+  if(bar){
+    var tick=false;
+    function upd(){tick=false;var h=document.documentElement,max=h.scrollHeight-innerHeight;bar.style.transform='scaleX('+(max>0?Math.min(1,scrollY/max):0)+')'}
+    addEventListener('scroll',function(){if(!tick){tick=true;requestAnimationFrame(upd)}},{passive:true});upd();
+  }
+  // A key number opens the Findings tab on its stone
+  [].slice.call(document.querySelectorAll('.kn[data-finding]')).forEach(function(a){
+    a.addEventListener('click',function(){var id=a.getAttribute('data-finding');setTimeout(function(){var s=document.getElementById(id);if(s){s.click();s.scrollIntoView({block:'center'})}},30)});
+  });
+})();

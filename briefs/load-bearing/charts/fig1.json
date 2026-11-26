@@ -1,0 +1,180 @@
+{
+ "type": "line",
+ "figure": "Figure 1",
+ "data": "fig1_us_retail_sales.csv",
+ "title": "US electricity sales grew 10 times faster after 2021 than in the 14 years before",
+ "subtitle": "Cumulative change in US retail electricity sales since 2007, terawatt-hours (TWh); 2026–27 are EIA forecasts",
+ "units": "TWh",
+ "fmt": {
+  "sign": true
+ },
+ "aspect": 2.4,
+ "aspectNarrow": 1.15,
+ "x": {
+  "name": "Year",
+  "values": [
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026,
+   2027
+  ],
+  "labels": [
+   "2007",
+   "2008",
+   "2009",
+   "2010",
+   "2011",
+   "2012",
+   "2013",
+   "2014",
+   "2015",
+   "2016",
+   "2017",
+   "2018",
+   "2019",
+   "2020",
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025",
+   "2026 (EIA forecast)",
+   "2027 (EIA forecast)"
+  ],
+  "min": 2007,
+  "max": 2027.8,
+  "ticks": [
+   2007,
+   2009,
+   2011,
+   2013,
+   2015,
+   2017,
+   2019,
+   2021,
+   2023,
+   2025,
+   2027
+  ],
+  "tickLabels": [
+   "2007",
+   "09",
+   "11",
+   "13",
+   "15",
+   "17",
+   "19",
+   "21",
+   "23",
+   "25",
+   "27F"
+  ]
+ },
+ "y": {
+  "min": -200,
+  "max": 500,
+  "ticks": [
+   -200,
+   -100,
+   0,
+   100,
+   200,
+   300,
+   400,
+   500
+  ],
+  "title": "TWh"
+ },
+ "series": [
+  {
+   "name": "Change since 2007",
+   "color": "copper",
+   "values": [
+    0,
+    -32,
+    -168,
+    -10.2,
+    -15.2,
+    -70.3,
+    -40.1,
+    -0.3,
+    -6.0,
+    -2.5,
+    -41.6,
+    94.2,
+    46.2,
+    -47.3,
+    40.9,
+    162.2,
+    109.3,
+    210.4,
+    293.0,
+    387,
+    452
+   ],
+   "forecastFrom": 18,
+   "forecastLabel": "EIA forecast"
+  }
+ ],
+ "bands": [
+  {
+   "from": 2007,
+   "to": 2021
+  }
+ ],
+ "notes": [
+  {
+   "x": 2014,
+   "y": 300,
+   "text": "2007–21: +41 TWh in 14 years",
+   "color": "delft",
+   "anchor": "middle",
+   "narrow": {
+    "y": 420,
+    "x": 2007.3,
+    "anchor": "start",
+    "text": "2007–21:\n+41 TWh"
+   }
+  },
+  {
+   "x": 2021.3,
+   "y": 420,
+   "text": "2021–27F: +411 TWh",
+   "color": "copper",
+   "narrow": {
+    "x": 2021.4,
+    "y": 455,
+    "anchor": "start",
+    "text": "2021–27F:\n+411 TWh"
+   }
+  },
+  {
+   "x": 2026.6,
+   "y": 213,
+   "text": "EIA\nforecast",
+   "color": "grey",
+   "anchor": "middle",
+   "bold": false,
+   "size": 11,
+   "minWidth": 560
+  }
+ ],
+ "source": "Source: KPA analysis of US Energy Information Administration data."
+}

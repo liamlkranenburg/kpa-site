@@ -1,0 +1,86 @@
+{
+ "type": "bar",
+ "figure": "Figure 3",
+ "data": "fig3_ercot_rating_vs_limit.csv",
+ "title": "Texas added 5.4 GW of batteries; its Fern peak cut rose only 0.8 GW",
+ "subtitle": "ERCOT battery fleet rating and the deepest peak cut it could hold at the Fern and summer 2025 peaks, GW",
+ "units": "GW",
+ "aspect": 1.7,
+ "aspectNarrow": 1.0,
+ "barWidth": 0.7,
+ "compact": true,
+ "categories": [
+  "January 2026 fleet",
+  "October 2026 fleet"
+ ],
+ "categoryName": "Fleet",
+ "y": {
+  "min": 0,
+  "max": 22,
+  "ticks": [
+   0,
+   5,
+   10,
+   15,
+   20
+  ],
+  "title": "GW"
+ },
+ "series": [
+  {
+   "name": "Rating",
+   "color": "mid",
+   "scale": 0.001,
+   "values": [
+    14209,
+    19610
+   ],
+   "fmt": {
+    "decimals": 3,
+    "suffix": " GW"
+   },
+   "labelFmt": {
+    "decimals": 1,
+    "suffix": ""
+   },
+   "labelColor": "grey"
+  },
+  {
+   "name": "Cut it could hold, summer 2025 peak",
+   "color": "delft",
+   "scale": 0.001,
+   "values": [
+    null,
+    10539.0
+   ],
+   "fmt": {
+    "decimals": 3,
+    "suffix": " GW"
+   },
+   "labelFmt": {
+    "decimals": 1,
+    "suffix": ""
+   },
+   "labelColor": "delft"
+  },
+  {
+   "name": "Cut it could hold, Fern peak",
+   "color": "copper",
+   "scale": 0.001,
+   "values": [
+    3434,
+    4215
+   ],
+   "fmt": {
+    "decimals": 3,
+    "suffix": " GW"
+   },
+   "labelFmt": {
+    "decimals": 1,
+    "suffix": ""
+   },
+   "labelColor": "copper"
+  }
+ ],
+ "source": "Source: KPA analysis of EIA-930 and EIA Form 860M."
+}

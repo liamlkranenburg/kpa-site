@@ -1,0 +1,86 @@
+{
+ "type": "bar",
+ "figure": "Figure 5",
+ "data": "fig5_gev_signed_vs_shipped.csv",
+ "title": "Signings fell toward shipments in the third quarter",
+ "subtitle": "GE Vernova gas equipment contracts signed and equipment shipped, by quarter, GW, with GW signed per GW shipped below each quarter",
+ "units": "GW",
+ "aspect": 2.6,
+ "aspectNarrow": 1.1,
+ "barWidth": 0.76,
+ "categories": [
+  "Q2\n’25",
+  "Q3\n’25",
+  "Q4\n’25",
+  "Q1\n’26",
+  "Q2\n’26",
+  "Q3\n’26"
+ ],
+ "categoryName": "Quarter",
+ "y": {
+  "min": 0,
+  "max": 30,
+  "ticks": [
+   0,
+   5,
+   10,
+   15,
+   20,
+   25,
+   30
+  ],
+  "title": "GW"
+ },
+ "series": [
+  {
+   "name": "Signed",
+   "color": "copper",
+   "values": [
+    9,
+    12,
+    24,
+    21,
+    20,
+    11
+   ],
+   "labelFmt": {
+    "decimals": 0,
+    "suffix": ""
+   }
+  },
+  {
+   "name": "Shipped",
+   "color": "delft",
+   "values": [
+    5.0,
+    4.0,
+    3.0,
+    4.0,
+    3.0,
+    5.0
+   ],
+   "valueLabels": false
+  }
+ ],
+ "rowBelow": {
+  "label": "Signed per GW shipped",
+  "name": "GW signed per GW shipped",
+  "values": [
+   1.8,
+   3.0,
+   8.0,
+   5.2,
+   6.7,
+   2.2
+  ],
+  "fmt": {
+   "decimals": 1,
+   "suffix": "×"
+  },
+  "highlight": {
+   "index": 5,
+   "color": "copper"
+  }
+ },
+ "source": "Source: KPA analysis of GE Vernova quarterly earnings releases."
+}

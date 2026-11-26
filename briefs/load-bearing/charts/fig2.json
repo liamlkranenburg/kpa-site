@@ -1,0 +1,55 @@
+{
+ "type": "bar",
+ "figure": "Figure 2",
+ "data": "fig2_demand_growth_2014_23.csv",
+ "title": "Data centers accounted for nearly all net US demand growth, 2014–23",
+ "subtitle": "Change in annual electricity use, 2014 to 2023, TWh",
+ "units": "TWh",
+ "fmt": {
+  "sign": true
+ },
+ "aspect": 1.9,
+ "aspectNarrow": 1.05,
+ "barWidth": 0.55,
+ "categories": [
+  "Data centers",
+  "Everything else",
+  "Total US sales"
+ ],
+ "y": {
+  "min": -30,
+  "max": 140,
+  "ticks": [
+   -25,
+   0,
+   25,
+   50,
+   75,
+   100,
+   125
+  ],
+  "title": "TWh"
+ },
+ "series": [
+  {
+   "name": "Change 2014–23",
+   "color": "copper",
+   "colors": [
+    "copper",
+    "mid",
+    "delft"
+   ],
+   "values": [
+    118,
+    -8.4,
+    109.6
+   ],
+   "labelFmt": {
+    "sign": true,
+    "decimals": 0,
+    "suffix": ""
+   }
+  }
+ ],
+ "source": "Source: KPA analysis of LBNL and EIA data. “Everything else” is the difference."
+}

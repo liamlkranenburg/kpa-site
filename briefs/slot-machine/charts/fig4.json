@@ -1,0 +1,116 @@
+{
+ "type": "stacked",
+ "horizontal": true,
+ "figure": "Figure 4",
+ "data": "fig4_lead_time_base_rates.csv",
+ "title": "Gas listed a year ahead gets built; two years ahead, most of it has not",
+ "subtitle": "Status in September 2026 of US gas capacity listed as planned in earlier EIA inventories, by planned year, share of nameplate capacity",
+ "units": "",
+ "fmt": {
+  "suffix": "%"
+ },
+ "categories": [
+  "Sep 2022 list, plants for 2023",
+  "Sep 2023 list, plants for 2024",
+  "Dec 2023 list, plants for 2024",
+  "Sep 2024 list, plants for 2025",
+  "Sep 2022 list, plants for 2024",
+  "Sep 2023 list, plants for 2025",
+  "Dec 2023 list, plants for 2025",
+  "Sep 2022 list, plants for 2025"
+ ],
+ "categoryName": "EIA list and planned year",
+ "barHeight": 20,
+ "x": {
+  "min": 0,
+  "max": 100,
+  "ticks": [
+   0,
+   25,
+   50,
+   75,
+   100
+  ],
+  "fmt": {
+   "suffix": "%"
+  }
+ },
+ "series": [
+  {
+   "name": "Operating",
+   "color": "delft",
+   "scale": 100,
+   "values": [
+    0.935,
+    1.0,
+    0.996,
+    0.988,
+    0.378,
+    0.349,
+    0.46,
+    0.206
+   ],
+   "labelFmt": {
+    "decimals": 0,
+    "suffix": "%"
+   }
+  },
+  {
+   "name": "Still planned",
+   "color": "mid",
+   "scale": 100,
+   "values": [
+    0.0,
+    0.0,
+    0.004,
+    0.012,
+    0.005,
+    0.176,
+    0.146,
+    0.221
+   ],
+   "labelFmt": {
+    "decimals": 0,
+    "suffix": "%"
+   }
+  },
+  {
+   "name": "Canceled or postponed",
+   "color": "copper",
+   "scale": 100,
+   "values": [
+    0.065,
+    0.0,
+    0.0,
+    0.0,
+    0.617,
+    0.475,
+    0.394,
+    0.573
+   ],
+   "labelFmt": {
+    "decimals": 0,
+    "suffix": "%"
+   }
+  }
+ ],
+ "totals": false,
+ "segmentLabels": true,
+ "segmentMin": 9,
+ "groups": [
+  {
+   "from": 0,
+   "label": "About 1 year ahead"
+  },
+  {
+   "from": 4,
+   "label": "About 2 years ahead"
+  },
+  {
+   "from": 7,
+   "label": "About 3 years ahead"
+  }
+ ],
+ "rowBelow": null,
+ "source": "Source: KPA analysis of EIA Form 860M data."
+}

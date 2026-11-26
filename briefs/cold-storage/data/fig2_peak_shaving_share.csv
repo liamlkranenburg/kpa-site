@@ -1,0 +1,10 @@
+# Figure 2: deepest cut in peak net load each region's October 2026 battery fleet could hold, as a share of its power rating, at the winter 2025-26 and summer 2025 peaks (full charge, perfect foresight, no recharge during the peak run); NERC on-peak winter counts by assessment area (ERCOT; WECC-California; WECC-Southwest). Source: KPA analysis of EIA-930 and EIA Form 860M; NERC. Kranenburg Power Advisors, Cold Storage v1.0
+region,winter_2025_26_share,summer_2025_share,nerc_winter_on_peak_share
+Six regions,0.342,0.647,
+ERCOT (Texas),0.215,0.537,15.8
+CAISO (California),0.43,0.723,85.0
+Southwest (four utilities),0.471,0.756,85.0
+Arizona Public Service,0.406,0.654,
+NV Energy,0.465,0.859,
+PNM (New Mexico),0.484,1.0,
+Salt River Project,0.597,0.706,

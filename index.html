@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kranenburg Power Advisors</title>
-<meta name="description" content="Short decision briefs on energy and markets by Liam Kranenburg. Latest: Banked Fires, on stalled US coal retirements, and why the plants owners keep run harder than those held by federal order.">
+<meta name="description" content="Short decision briefs on energy and markets by Liam Kranenburg. Latest: Cold Storage, on why batteries lead US winter capacity additions on paper, and why long winter peaks outlast them.">
 <link rel="canonical" href="https://kpa.energy/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Kranenburg Power Advisors">
-<meta property="og:title" content="Banked Fires, Kranenburg Power Advisors">
-<meta property="og:description" content="Short decision briefs on energy and markets by Liam Kranenburg. Latest: Banked Fires, on stalled US coal retirements, and why the plants owners keep run harder than those held by federal order.">
+<meta property="og:title" content="Cold Storage, Kranenburg Power Advisors">
+<meta property="og:description" content="Short decision briefs on energy and markets by Liam Kranenburg. Latest: Cold Storage, on why batteries lead US winter capacity additions on paper, and why long winter peaks outlast them.">
 <meta property="og:url" content="https://kpa.energy/">
-<meta property="og:image" content="https://kpa.energy/og-banked-fires.png">
+<meta property="og:image" content="https://kpa.energy/og-cold-storage.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#1F3A68">
 <link rel="icon" href="favicon.ico" sizes="32x32">
@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="charts.css">
 <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
@@ -30,9 +30,9 @@
 <header class="mast">
   <div class="wrap">
     <a class="brand" href="./" aria-label="Kranenburg Power Advisors, home"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M6 12 H26 V26 H40 V12 H60 V26 H74 V12 H94 V94 H6 Z" fill="#B8692E"/><g fill="#FFFFFF" transform="translate(16.66,70.21)"><path transform="translate(0.00,0) scale(0.03100,-0.03100)" d="M31 0V65L111 69Q111 85 112 100Q112 150 112 201V457Q112 507 112 558Q111 573 111 588L31 593V657H363V593L285 588Q285 573 285 558Q284 508 284 458V300L329 358L523 587L446 593V657H701V593L609 587L460 427L667 69L731 65V0H418V65L474 68L346 305L284 238V199Q284 150 285 101Q285 85 285 69L353 65V0Z"/><path transform="translate(23.68,0) scale(0.03100,-0.03100)" d="M31 0V65L111 69Q111 85 112 100Q112 150 112 201V457Q112 507 112 558Q111 573 111 588L31 593V657H324Q430 657 497.0 633.5Q564 610 596.0 565.5Q628 521 628 459Q628 398 597.5 350.5Q567 303 499.5 276.0Q432 249 322 249H288V196Q288 149 289 100Q289 85 289 70L384 65V0ZM289 593Q289 575 289 558Q288 507 288 457V311H316Q365 311 396.0 328.5Q427 346 441.5 379.0Q456 412 456 457Q456 526 422.5 559.5Q389 593 319 593Z"/><path transform="translate(44.61,0) scale(0.03100,-0.03100)" d="M11 0V65L86 70L291 659H423L631 67L698 63V0H369V63L451 68L412 187H195L158 70L237 65V0ZM392 250 297 541 278 444 216 250Z"/></g></svg><span class="brand-name"><span class="b1">KRANENBURG</span><span class="b2">POWER ADVISORS</span></span></a>
-    <nav class="menu" id="menu" aria-label="Main"><a href="briefs/">Briefs</a><a href="findings/">Findings</a><a href="calls/">Calls</a><a href="data/">Data</a><a href="method/">Method</a><a href="about/">About</a><a class="mast-cta-m" href="briefs/banked-fires/">Latest brief</a></nav>
+    <nav class="menu" id="menu" aria-label="Main"><a href="briefs/">Briefs</a><a href="findings/">Findings</a><a href="calls/">Calls</a><a href="data/">Data</a><a href="method/">Method</a><a href="about/">About</a><a class="mast-cta-m" href="briefs/cold-storage/">Latest brief</a></nav>
     <button class="search-btn" type="button" aria-haspopup="dialog" aria-label="Search the site (press /)">Search<kbd>/</kbd></button>
-    <a class="mast-cta" href="briefs/banked-fires/">Latest brief</a>
+    <a class="mast-cta" href="briefs/cold-storage/">Latest brief</a>
     <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
   </div>
 </header>
@@ -41,82 +41,86 @@
 <section class="hero" aria-labelledby="latest-title">
   <div class="wrap">
     <div>
-      <p class="hero-note"><b>No. 3</b>&ensp;Latest brief, 10 November 2026</p>
-      <h1 id="latest-title"><span>Banked</span><span>Fires</span></h1>
+      <p class="hero-note"><b>No. 4</b>&ensp;Latest brief, 25 November 2026</p>
+      <h1 id="latest-title"><span>Cold</span><span>Storage</span></h1>
       <div class="beam" aria-hidden="true"></div>
-      <p class="sub">US coal retirements have stalled, and plants owners keep run harder than those held by order</p>
-      <p class="by">By <b>Liam Kranenburg</b>. Decision brief on US power and utilities, 10 pages.</p>
+      <p class="sub">Batteries now lead winter capacity additions, but long winter peaks outlast them</p>
+      <p class="by">By <b>Liam Kranenburg</b>. Decision brief on US power and utilities, 9 pages.</p>
       <div class="actions">
-        <a class="read-btn" href="briefs/banked-fires/">Explore the brief</a>
-        <a class="pdf-link" href="briefs/banked-fires/banked-fires.pdf" target="_blank" rel="noopener">Open the PDF <small>536 KB</small></a>
+        <a class="read-btn" href="briefs/cold-storage/">Explore the brief</a>
+        <a class="pdf-link" href="briefs/cold-storage/cold-storage.pdf" target="_blank" rel="noopener">Open the PDF <small>462 KB</small></a>
       </div>
     </div>
-    <a class="cover" href="briefs/banked-fires/" aria-label="Explore Banked Fires">
-      <img src="briefs/banked-fires/cover.png" alt="Cover of Banked Fires: a Delft blue title block above pale blue castle-wall blocks" width="1275" height="1650">
-    </a>
+    <div class="cover-stack" data-n="4"><a class="cs-item cs-0" href="briefs/cold-storage/" aria-label="Cold Storage, No. 4" style="--i:0"><img src="briefs/cold-storage/cover.png" alt="" width="1275" height="1650"></a><a class="cs-item cs-1" href="briefs/banked-fires/" aria-label="Banked Fires, No. 3" style="--i:1"><img src="briefs/banked-fires/cover.png" alt="" width="1275" height="1650" loading="lazy"></a><a class="cs-item cs-2" href="briefs/slot-machine/" aria-label="Slot Machine, No. 2" style="--i:2"><img src="briefs/slot-machine/cover.png" alt="" width="1275" height="1650" loading="lazy"></a><a class="cs-item cs-3" href="briefs/load-bearing/" aria-label="Load Bearing, No. 1" style="--i:3"><img src="cover.png" alt="" width="1275" height="1650" loading="lazy"></a></div>
   </div>
 </section>
 <div class="crenel" aria-hidden="true"></div>
+<section class="numbers-band" aria-labelledby="nb-title"><div class="wrap"><h2 id="nb-title" class="nb-title">The series in four numbers</h2><div class="nb-grid"><a class="nb-cell" href="findings/#west-winter-limit-43"><span class="nb-k">No. 4 · Cold Storage</span><span class="nb-fig" data-count>43%</span><span class="nb-cap">of rating: the most California&#x27;s batteries could cut its winter peak</span></a><a class="nb-cell" href="findings/#ordered-vs-kept-22"><span class="nb-k">No. 3 · Banked Fires</span><span class="nb-fig" data-count>22%</span><span class="nb-cap">capacity factor of coal held open by federal order, Jan–Aug 2026</span></a><a class="nb-cell" href="findings/#status-check-41"><span class="nb-k">No. 2 · Slot Machine</span><span class="nb-fig" data-count>41%</span><span class="nb-cap">of gas EIA lists as not seeking approval is approved or building</span></a><a class="nb-cell" href="findings/#growth-share"><span class="nb-k">No. 1 · Load Bearing</span><span class="nb-fig" data-count>~100%</span><span class="nb-cap">of net US demand growth, 2014–23, came from data centers</span></a></div></div></section>
 
-<section class="sec tight" aria-labelledby="start-title">
+<section class="sec tight" aria-labelledby="series-title">
   <div class="wrap">
-    <div class="sec-head"><div><p class="tag">Start here</p><h2 id="start-title">Three ways in</h2></div>
-      <p>Read the argument, go straight to the numbers, or see how every figure gets checked before it is published.</p></div>
-    <div class="gates">
-      <a class="gate main" href="briefs/banked-fires/"><span class="k">Latest brief</span><strong>Banked Fires</strong><span class="d">In 2016–24, 88% of the coal capacity EIA listed a year ahead retired in the year listed; in 2025, 27% did, and none of the 6.4 GW listed for 2026 had retired by the end of September. KPA analysis shows who is holding the plants, and which ones run: units held by federal orders ran at 22% of capacity in January–August 2026, and units their owners kept ran at 38%.</span><span class="go">Explore the brief</span></a>
-      <a class="gate" href="findings/"><span class="k">30 findings</span><strong>The findings wall</strong><span class="d">Every key number, its source, and the page it comes from. Filter by theme or draw one at random.</span><span class="go">See the findings</span></a>
-      <a class="gate" href="method/"><span class="k">Method</span><strong>How a brief is made</strong><span class="d">One question, public data, every figure recomputed in code, then stress-tested.</span><span class="go">See the method</span></a>
-    </div>
+    <div class="sec-head"><div><p class="tag">The series</p><h2 id="series-title">Every brief, one argument each</h2></div>
+      <p>Each brief takes one event, makes one argument, and proves it with public data recomputed in code. Newest first.</p></div>
+    <div class="shelf"><article class="shelf-card is-latest"><a class="sc-cover" href="briefs/cold-storage/" tabindex="-1" aria-hidden="true"><img src="briefs/cold-storage/cover.png" alt="" width="1275" height="1650" loading="lazy"></a><div class="sc-body"><p class="sc-k">No. 4 · 25 November 2026 · <b>Latest</b></p><h3><a href="briefs/cold-storage/">Cold Storage</a></h3><p class="sc-sub">Batteries now lead winter capacity additions, but long winter peaks outlast them</p><p class="sc-topics"><span>Batteries</span><span>Winter reliability</span><span>Texas and the West</span></p></div></article><article class="shelf-card"><a class="sc-cover" href="briefs/banked-fires/" tabindex="-1" aria-hidden="true"><img src="briefs/banked-fires/cover.png" alt="" width="1275" height="1650" loading="lazy"></a><div class="sc-body"><p class="sc-k">No. 3 · 10 November 2026</p><h3><a href="briefs/banked-fires/">Banked Fires</a></h3><p class="sc-sub">US coal retirements have stalled, and plants owners keep run harder than those held by order</p><p class="sc-topics"><span>Coal</span><span>Emergency orders</span><span>Reliability</span></p></div></article><article class="shelf-card"><a class="sc-cover" href="briefs/slot-machine/" tabindex="-1" aria-hidden="true"><img src="briefs/slot-machine/cover.png" alt="" width="1275" height="1650" loading="lazy"></a><div class="sc-body"><p class="sc-k">No. 2 · 29 October 2026</p><h3><a href="briefs/slot-machine/">Slot Machine</a></h3><p class="sc-sub">Gas turbine reservations, a paper shortage, and who holds the risk</p><p class="sc-topics"><span>Gas</span><span>Supply chain</span><span>Plans</span></p></div></article><article class="shelf-card"><a class="sc-cover" href="briefs/load-bearing/" tabindex="-1" aria-hidden="true"><img src="cover.png" alt="" width="1275" height="1650" loading="lazy"></a><div class="sc-body"><p class="sc-k">No. 1 · 26 October 2026</p><h3><a href="briefs/load-bearing/">Load Bearing</a></h3><p class="sc-sub">AI data centers, the end of flat demand, and the remaking of the utility planning order</p><p class="sc-topics"><span>Demand</span><span>Data centers</span><span>Prices</span></p></div></article></div>
   </div>
 </section>
 
 <section class="sec" aria-labelledby="findings-title">
   <div class="wrap">
-    <div class="sec-head"><div><p class="tag">From Banked Fires</p><h2 id="findings-title">Numbers the brief stands on</h2></div>
+    <div class="sec-head"><div><p class="tag">From Cold Storage</p><h2 id="findings-title">Numbers the brief stands on</h2></div>
       <p>Select a stone to read the finding, its source, and the page it comes from.</p></div>
-    <div class="wall-zone" data-pdf="briefs/banked-fires/banked-fires.pdf">
+    <div class="wall-zone" data-pdf="briefs/cold-storage/cold-storage.pdf">
   <div>
     <div class="wall-top" aria-hidden="true"></div>
-    <div class="wall lay"><button class="stone s-xl c6r2" id="ordered-vs-kept-22" style="--i:0" aria-pressed="true" data-page="6" data-theme="Output">
-  <span class="theme">Output</span>
-  <span class="fig">22%</span>
-  <span class="cap">capacity factor of coal held open by federal order, Jan–Aug 2026</span>
-  <span class="more"><span class="h">Coal held open by federal order ran at 22% of capacity in January–August 2026; coal its owners kept ran at 38%.</span><span class="p">KPA matched every delayed unit to DOE&#x27;s orders and its owner&#x27;s filings, then measured its output in EIA&#x27;s generator data through August. The units held by orders ran at 22% of capacity in January–August 2026, down from 49% in the same months of 2022–24. Units their owners kept ran at 38%, up from 34%, against 47% for the US coal fleet.</span><span class="src">KPA&#x27;s comparison of ordered units, owner-kept units and the fleet, from EIA-923 and EIA Form 860M data (fleet figure from EIA&#x27;s Electric Power Monthly). Falling output at the ordered plants was reported earlier by Utility Dive (23 June 2026), Argus (30 March 2026) and MV2 (19 October 2026), and is credited.</span></span>
+    <div class="wall lay"><button class="stone s-xl c6r2" id="west-winter-limit-43" style="--i:0" aria-pressed="true" data-page="6" data-theme="Regions">
+  <span class="theme">Regions</span>
+  <span class="fig">43%</span>
+  <span class="cap">of rating: the most California&#x27;s batteries could cut its winter peak</span>
+  <span class="more"><span class="h">At the peaks of winter 2025–26, California&#x27;s battery fleet could have cut peak net load by at most 43% of its rating, against 72% at summer 2025&#x27;s peak.</span><span class="p">KPA tested how far each of the six largest battery fleets, as they stood in October 2026, could have pushed down each season&#x27;s peak net load. California&#x27;s could have cut the winter peak by 43% of its rating and the summer one by 72%; the four large Southwest utilities&#x27; fleets, by 47% and 76%. NERC counts batteries in both regions at 85%.</span><span class="src">KPA&#x27;s own calculation from EIA-930 hourly data and EIA Form 860M (October 2026), compared with NERC&#x27;s assessment-area counts. The method follows Denholm and others (NREL, 2020) and Mills and Rodriguez (LBNL, 2020), and the modelled ELCC studies by Astrapé for ERCOT and E3 for the Desert Southwest are credited; the regional winter and summer limits were not found in KPA&#x27;s prior-publication search.</span></span>
 </button>
-<button class="stone c3" id="on-time-88" style="--i:1" aria-pressed="false" data-page="4" data-theme="Retirements">
-  <span class="theme">Retirements</span>
-  <span class="fig">88%</span>
-  <span class="cap">of coal listed a year ahead retired in the year listed, 2016–24</span>
-  <span class="more"><span class="h">For a decade, EIA&#x27;s coal retirement dates were a dependable forecast: 88% of the capacity listed a year ahead retired on time.</span><span class="p">KPA traced every coal unit in EIA&#x27;s December inventories for 2015 to 2023 to its status in September 2026. Of the 57.4 GW listed to retire the following year, 88% retired in the year listed, and 97% has retired since; even in the weakest year, 2023, 73% went on time. In 2025, 27% did.</span><span class="src">KPA&#x27;s own calculation, pooled across 2016–24, from EIA Form 860M inventories. MV2 (Munim, Inc.) reported earlier, in October 2026, that 26% of the 2025 list retired on time against 72% or more in earlier years, and is credited; KPA&#x27;s 27% uses September 2026 net summer capacity.</span></span>
+<button class="stone c3" id="fern-plateau-16-h" style="--i:1" aria-pressed="false" data-page="5" data-theme="Duration">
+  <span class="theme">Duration</span>
+  <span class="fig">16 h</span>
+  <span class="cap">Texas net load stayed within 10% of its peak during Winter Storm Fern</span>
+  <span class="more"><span class="h">During Winter Storm Fern, Texas net load stayed within 10% of its peak for 16 hours; at summer 2025&#x27;s peak, it did so for four.</span><span class="p">From 5 p.m. on 25 January 2026 to 9 a.m. the next day, ERCOT&#x27;s net load (demand minus wind and solar) stayed within 10% of its peak for 16 hours. Wind output fell from about 11 GW at midday on 25 January to 5 GW overnight, and solar was absent. On 18 August 2025, net load peaked at 9 p.m. and stayed within 10% of that peak for four hours.</span><span class="src">KPA&#x27;s own count from EIA-930 hourly data. Life:Powered (19 November 2026), the Federal Reserve Bank of Dallas (November 2025) and ERCOT&#x27;s board update (4 February 2026) described longer winter peaks in ERCOT earlier, without this count, and are credited.</span></span>
 </button>
-<button class="stone c3" id="campbell-460" style="--i:2" aria-pressed="false" data-page="7" data-theme="Costs">
-  <span class="theme">Costs</span>
-  <span class="fig">$460</span>
-  <span class="cap">per megawatt-day: Campbell&#x27;s net cost under federal order</span>
-  <span class="more"><span class="h">Net of market revenue, keeping the Campbell plant open has cost about $460 per megawatt-day, 1.4 times PJM&#x27;s capped capacity price.</span><span class="p">Consumers Energy reports that Campbell has cost $303 million through September, net of $344 million in market revenue, or about $611,000 a day. Spread over the plant&#x27;s 1,331 MW, that is about $460 per MW-day: 1.4 times the $325 cap at which PJM&#x27;s latest capacity auction cleared, and about twice MISO&#x27;s annualized capacity price for 2025–26.</span><span class="src">KPA&#x27;s own calculation from Consumers Energy&#x27;s Form 10-Q (27 October 2026); the cost and revenue totals are Consumers&#x27; own. On DOE&#x27;s larger 1,560 MW rating, the figure is $392.</span></span>
-</button>
-<button class="stone c3" id="delayed-split-46" style="--i:3" aria-pressed="false" data-page="6" data-theme="Orders">
-  <span class="theme">Orders</span>
-  <span class="fig">46%</span>
-  <span class="cap">of the 8.1 GW of delayed coal is held by federal emergency orders</span>
-  <span class="more"><span class="h">Federal orders hold less than half of the coal whose retirement has slipped; owners and grid contracts hold the rest.</span><span class="p">Of the 8.1 GW of coal whose 2025 or 2026 retirement date has passed or moved past 2026, DOE&#x27;s orders cover 3.7 GW, or 46%. Owners, or their contracts with grid operators, kept the other 4.4 GW. The largest is Brandon Shores in Maryland, 1.3 GW that Talen Energy runs under a reliability-must-run contract with PJM until May 2029.</span><span class="src">KPA&#x27;s own split, pooled across 2025 and 2026, from EIA Form 860M, DOE&#x27;s orders and owners&#x27; filings. EIA (13 April 2026) split 2025&#x27;s delays and MV2 (October 2026) split 2026&#x27;s; both are credited. Taken one year at a time, orders hold the larger share of 2025&#x27;s delays.</span></span>
-</button>
-<button class="stone c3" id="extra-coal-14" style="--i:4" aria-pressed="false" data-page="9" data-theme="Outlook">
+<button class="stone c3" id="added-14-mw" style="--i:2" aria-pressed="false" data-page="8" data-theme="Outlook">
   <span class="theme">Outlook</span>
-  <span class="fig">14 GW</span>
-  <span class="cap">more coal in 2029 than the schedule assumes, at 2025&#x27;s follow-through</span>
-  <span class="more"><span class="h">If owners treat the 2027–28 schedule as they treated 2025&#x27;s, the United States will enter 2029 with about 14 GW more coal than its own schedule assumes.</span><span class="p">Setting aside the TVA units its board voted to keep, 16.3 GW of the 2027–28 schedule remains. If it follows 2016–24, about 14.4 GW retires; if it follows 2025, about 4.4 GW; if it follows 2026 to date, almost none. About 14 GW is about as much as the United States retired in 2022, its largest year since 2015.</span><span class="src">KPA&#x27;s own scenarios, applying its follow-through rates from EIA Form 860M to the September 2026 schedule. Not found in KPA&#x27;s prior-publication search.</span></span>
+  <span class="fig">14 MW</span>
+  <span class="cap">more Fern peak cut for every 100 MW of batteries ERCOT added in 2026</span>
+  <span class="more"><span class="h">In Texas, each 100 MW of batteries added in 2026 raised the most the fleet could cut from Fern&#x27;s peak by just 14 MW.</span><span class="p">ERCOT added 5.4 GW of batteries between January and October 2026, yet the most its fleet could cut a Fern-shaped peak rose by only 0.8 GW, from 3.4 GW to 4.2 GW. If winter peaks keep the shape of winter 2025–26, each new short battery will add less than the one before it.</span><span class="src">KPA&#x27;s own calculation from EIA-930 hourly data and EIA Form 860M. Not found in KPA&#x27;s prior-publication search; that storage counts for less as fleets grow is established in modelled ELCC studies, including Astrapé&#x27;s for ERCOT, which are credited.</span></span>
+</button>
+<button class="stone c3" id="fern-ten-hours-7" style="--i:3" aria-pressed="false" data-page="5" data-theme="Texas">
+  <span class="theme">Texas</span>
+  <span class="fig">7%</span>
+  <span class="cap">of rating: ERCOT battery output in Fern&#x27;s 10 highest net-load hours</span>
+  <span class="more"><span class="h">Across Fern&#x27;s 10 hours of highest net load, ERCOT&#x27;s batteries averaged 962 MW, or 7% of their rating, and overnight they charged.</span><span class="p">The batteries rationed a short supply for the morning. From 10 p.m. to 2 a.m. they charged at about 1 GW while net load sat less than 3.5 GW below the storm&#x27;s peak. At the peak hour, which ended at 8 a.m. on 26 January 2026, they discharged 6.1 GW, 43% of their rating.</span><span class="src">KPA&#x27;s own calculation from EIA-930 hourly data and EIA Form 860M; the overnight charging and the 10-hour average were not found in KPA&#x27;s prior-publication search. Life:Powered (19 November 2026) reported earlier that battery output averaged about 6% of installed capacity from the night of 25 January to sunrise, and the American Clean Power Association and Latitude Media reported the battery share of the Fern peak; all are credited.</span></span>
+</button>
+<button class="stone c3" id="fern-cut-21" style="--i:4" aria-pressed="false" data-page="6" data-theme="Texas">
+  <span class="theme">Texas</span>
+  <span class="fig">21%</span>
+  <span class="cap">of rating: the most ERCOT&#x27;s 19.6 GW fleet could cut Fern&#x27;s peak</span>
+  <span class="more"><span class="h">ERCOT&#x27;s 19.6 GW battery fleet, as of October 2026, could have cut Fern&#x27;s peak net load by at most 4.2 GW, or 21% of its rating.</span><span class="p">January 2026&#x27;s 14.2 GW fleet could have cut Fern&#x27;s peak by at most 3.4 GW, or 24% of its rating. The larger fleet&#x27;s share is lower because each added megawatt of cut reaches deeper into the plateau. The test assumes the fleet started full, knew the load in advance and did not recharge during the peak, so the result is an upper bound.</span><span class="src">KPA&#x27;s own calculation from EIA-930 hourly data and EIA Form 860M. Not found in KPA&#x27;s prior-publication search; Astrapé&#x27;s modelled ELCC study for ERCOT (February 2025) is the closest analogue and is credited.</span></span>
 </button></div>
   </div>
   <aside class="slit" aria-live="polite" aria-label="Selected finding">
-    <p class="slit-fig">22%</p>
-    <h3>Coal held open by federal order ran at 22% of capacity in January–August 2026; coal its owners kept ran at 38%.</h3>
-    <p class="slit-p">KPA matched every delayed unit to DOE&#x27;s orders and its owner&#x27;s filings, then measured its output in EIA&#x27;s generator data through August. The units held by orders ran at 22% of capacity in January–August 2026, down from 49% in the same months of 2022–24. Units their owners kept ran at 38%, up from 34%, against 47% for the US coal fleet.</p>
-    <p class="src">KPA&#x27;s comparison of ordered units, owner-kept units and the fleet, from EIA-923 and EIA Form 860M data (fleet figure from EIA&#x27;s Electric Power Monthly). Falling output at the ordered plants was reported earlier by Utility Dive (23 June 2026), Argus (30 March 2026) and MV2 (19 October 2026), and is credited.</p>
-    <p class="slit-links"><a class="slit-page" href="briefs/banked-fires/banked-fires.pdf#page=6" target="_blank" rel="noopener">Read it on page 6</a><a href="findings/">All findings</a></p>
+    <p class="slit-fig">43%</p>
+    <h3>At the peaks of winter 2025–26, California&#x27;s battery fleet could have cut peak net load by at most 43% of its rating, against 72% at summer 2025&#x27;s peak.</h3>
+    <p class="slit-p">KPA tested how far each of the six largest battery fleets, as they stood in October 2026, could have pushed down each season&#x27;s peak net load. California&#x27;s could have cut the winter peak by 43% of its rating and the summer one by 72%; the four large Southwest utilities&#x27; fleets, by 47% and 76%. NERC counts batteries in both regions at 85%.</p>
+    <p class="src">KPA&#x27;s own calculation from EIA-930 hourly data and EIA Form 860M (October 2026), compared with NERC&#x27;s assessment-area counts. The method follows Denholm and others (NREL, 2020) and Mills and Rodriguez (LBNL, 2020), and the modelled ELCC studies by Astrapé for ERCOT and E3 for the Desert Southwest are credited; the regional winter and summer limits were not found in KPA&#x27;s prior-publication search.</p>
+    <p class="slit-links"><a class="slit-page" href="briefs/cold-storage/cold-storage.pdf#page=6" target="_blank" rel="noopener">Read it on page 6</a><a href="findings/">All findings</a></p>
   </aside>
 </div>
-    <p class="sec-foot"><a class="text-link" href="findings/">See all 30 findings</a></p>
+    <p class="sec-foot"><a class="text-link" href="findings/">See all 40 findings</a></p>
+  </div>
+</section>
+
+<section class="sec calls-home" aria-labelledby="ch-title">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="tag">Calls on the record</p><h2 id="ch-title">Predictions, with odds and a deadline</h2></div>
+      <p>Every brief makes a few dated calls with a stated likelihood. Each is scored in public when it resolves, including the misses.</p></div>
+    <div class="calls-board"><div class="cb-col"><h3 class="cb-q">October–December 2026</h3><ul><li><a href="calls/#lb-1"><span class="cb-id">LB-1</span><span class="cb-call">PJM&#x27;s 2029/30 capacity auction clears at its price cap</span><span class="cb-p"><span class="cb-bar"><span style="width:85%"></span></span><span class="cb-pct">85%</span></span></a></li></ul></div><div class="cb-col"><h3 class="cb-q">January–March 2027</h3><ul><li><a href="calls/#sm-1"><span class="cb-id">SM-1</span><span class="cb-call">GE Vernova reports at least 130 GW of gas equipment backlog plus slot reservations at the end of 2026</span><span class="cb-p"><span class="cb-bar"><span style="width:70%"></span></span><span class="cb-pct">70%</span></span></a></li><li><a href="calls/#bf-1"><span class="cb-id">BF-1</span><span class="cb-call">Less than 1.5 GW of US coal capacity retires in calendar 2026, by EIA&#x27;s count</span><span class="cb-p"><span class="cb-bar"><span style="width:85%"></span></span><span class="cb-pct">85%</span></span></a></li><li><a href="calls/#lb-2"><span class="cb-id">LB-2</span><span class="cb-call">US retail electricity sales set a new record in 2026, above 2025&#x27;s 4,058 TWh</span><span class="cb-p"><span class="cb-bar"><span style="width:90%"></span></span><span class="cb-pct">90%</span></span></a></li></ul></div><div class="cb-col"><h3 class="cb-q">April–June 2027</h3><ul><li><a href="calls/#cs-1"><span class="cb-id">CS-1</span><span class="cb-call">Across ERCOT&#x27;s 10 highest net-load hours, Dec 2026-Feb 2027, battery output averages less than 30% of battery capacity in service</span><span class="cb-p"><span class="cb-bar"><span style="width:70%"></span></span><span class="cb-pct">70%</span></span></a></li><li><a href="calls/#cs-2"><span class="cb-id">CS-2</span><span class="cb-call">On CAISO&#x27;s highest winter net-load day, Dec 2026-Feb 2027, net load stays within 10% of its peak for at least five consecutive hours</span><span class="cb-p"><span class="cb-bar"><span style="width:65%"></span></span><span class="cb-pct">65%</span></span></a></li><li><a href="calls/#bf-3"><span class="cb-id">BF-3</span><span class="cb-call">J.H. Campbell is still listed as operating in EIA&#x27;s inventory for March 2027</span><span class="cb-p"><span class="cb-bar"><span style="width:85%"></span></span><span class="cb-pct">85%</span></span></a></li></ul></div><div class="cb-col"><h3 class="cb-q">October–December 2027</h3><ul><li><a href="calls/#cs-3"><span class="cb-id">CS-3</span><span class="cb-call">US battery capacity in operation reaches at least 70 GW in EIA Form 860M for September 2027</span><span class="cb-p"><span class="cb-bar"><span style="width:70%"></span></span><span class="cb-pct">70%</span></span></a></li><li><a href="calls/#lb-3"><span class="cb-id">LB-3</span><span class="cb-call">Less than 10% of the Texas large-load queue is approved to energize by the end of 2027</span><span class="cb-p"><span class="cb-bar"><span style="width:90%"></span></span><span class="cb-pct">90%</span></span></a></li></ul></div><div class="cb-col"><h3 class="cb-q">January–March 2028</h3><ul><li><a href="calls/#sm-3"><span class="cb-id">SM-3</span><span class="cb-call">GE Vernova&#x27;s gas slot reservations not yet in backlog are below 58 GW at the end of 2027</span><span class="cb-p"><span class="cb-bar"><span style="width:60%"></span></span><span class="cb-pct">60%</span></span></a></li><li><a href="calls/#sm-2b"><span class="cb-id">SM-2b</span><span class="cb-call">At least half of Project Matador&#x27;s 11.3 GW (EIA-860M, September 2026) is canceled, postponed or moved past 2030 in EIA&#x27;s December 2027 inventory</span><span class="cb-p"><span class="cb-bar"><span style="width:60%"></span></span><span class="cb-pct">60%</span></span></a></li><li><a href="calls/#bf-2"><span class="cb-id">BF-2</span><span class="cb-call">At least half of the 6.2 GW of coal EIA lists (Sep 2026) to retire in 2027 is still in operation at the end of 2027</span><span class="cb-p"><span class="cb-bar"><span style="width:60%"></span></span><span class="cb-pct">60%</span></span></a></li></ul></div></div>
+    <p class="sec-foot"><a class="text-link" href="calls/">See the full scorecard</a></p>
   </div>
 </section>
 
@@ -125,34 +129,31 @@
     <div class="sec-head"><div><p class="tag">On the desk</p><h2 id="desk-title">What could change the numbers</h2></div>
       <p>Releases that could move a published finding. When one lands, the finding is checked again.</p></div>
     <ul class="desk"><li>
-  <time datetime="2026-11-14">14 Nov 2026</time>
-  <div><h3>Campbell&#x27;s sixth emergency order expires</h3><p>DOE has renewed the J.H. Campbell order five times since May 2025, and the one court ruling so far vacated an order that had already expired. A seventh renewal fits KPA call BF-3: Campbell still listed as operating in March 2027. <a href="findings/#campbell-460">See the finding</a></p></div>
-  <span class="count" data-date="2026-11-14"></span>
+  <time datetime="2026-11-30">30 Nov 2026</time>
+  <div><h3>Stanton 1 emergency order expires</h3><p>DOE Order 202-26-42 keeps Orlando&#x27;s Stanton Unit 1 available through 30 November; no renewal had been posted by 25 November. Stanton 1 ran at 43% in January–August 2026 under orders. <a href="findings/#ordered-vs-kept-22">See the finding</a></p></div>
+  <span class="count" data-date="2026-11-30"></span>
+</li><li>
+  <time datetime="2026-12-01">1 Dec 2026</time>
+  <div><h3>Winter 2026–27 begins, the season KPA&#x27;s calls test</h3><p>KPA call CS-1: across ERCOT&#x27;s 10 highest net-load hours, December 2026 to February 2027, battery output averages less than 30% of battery capacity in service (Likely, 70%). It was 24% in winter 2025 and 7% in 2025–26. <a href="findings/#fern-ten-hours-7">See the finding</a></p></div>
+  <span class="count" data-date="2026-12-01"></span>
+</li><li>
+  <time datetime="2026-12-03">3 Dec 2026</time>
+  <div><h3>GE Vernova CEO at Goldman Sachs conference</h3><p>First public remarks since the third-quarter release, when gas backlog and slot reservations stood at 122 GW. KPA call SM-1 needs about 8 GW more by year-end. <a href="findings/#gev-book-122">See the finding</a></p></div>
+  <span class="count" data-date="2026-12-03"></span>
 </li><li>
   <time datetime="2026-12-09">9 Dec 2026</time>
-  <div><h3>PJM 2029/30 capacity auction opens</h3><p>Bidding runs 9–15 December, with results due around 22 December. It settles KPA call LB-1: a clear at the price cap. <a href="findings/#pjm-price">See the finding</a></p></div>
+  <div><h3>PJM 2029/30 capacity auction opens</h3><p>Bidding runs 9–15 December under a $337.83/MW-day cap and $181.91 floor, with a 158,712 MW reliability requirement. It settles KPA call LB-1: a clear at the price cap. <a href="findings/#pjm-price">See the finding</a></p></div>
   <span class="count" data-date="2026-12-09"></span>
 </li><li>
-  <time>Expected December</time>
-  <div><h3>Grid Strategies 2026 load forecast</h3><p>Resets the 166 GW and 90 GW forecast baselines that the flexibility findings are measured against. Earlier editions came out in December. <a href="findings/#half-percent">See the finding</a></p></div>
-  <span class="count past">Watching</span>
+  <time datetime="2026-12-11">11 Dec 2026</time>
+  <div><h3>Centralia 2 emergency order expires</h3><p>DOE Order 202-26-44 keeps TransAlta&#x27;s Centralia Unit 2 available through 11 December. The unit ran at 0% in January–August 2026. <a href="findings/#ordered-vs-kept-22">See the finding</a></p></div>
+  <span class="count" data-date="2026-12-11"></span>
 </li><li>
-  <time>January 2027</time>
-  <div><h3>GE Vernova fourth-quarter results</h3><p>Settles KPA call SM-1: at least 130 GW of gas orders and reservations at year-end. GE guided to about 13 GW of new agreements in the fourth quarter. <a href="findings/#gev-book-122">See the finding</a></p></div>
-  <span class="count past">Watching</span>
-</li><li>
-  <time>Pending</time>
-  <div><h3>Ruling on DOE&#x27;s rehearing petition in Michigan v. DOE</h3><p>The D.C. Circuit vacated DOE&#x27;s first Campbell order on 11 September 2026, and DOE has asked for a rehearing. A ruling that sets aside an order while it is in force would change KPA&#x27;s view. <a href="findings/#ordered-vs-kept-22">See the finding</a></p></div>
-  <span class="count past">Watching</span>
-</li><li>
-  <time>February 2027</time>
-  <div><h3>EIA Form 860M for December 2026</h3><p>Settles KPA call BF-1: less than 1.5 GW of US coal retires in 2026. Of the 3.6 GW still dated for November and December, 2.6 GW is under federal orders. <a href="findings/#retired-2025-2-7">See the finding</a></p></div>
-  <span class="count past">Watching</span>
-</li><li>
-  <time>Published June 2026</time>
-  <div><h3>LBNL revised data center series</h3><p>LBNL revised earlier years slightly down. KPA is rechecking the 2014–23 share against the new series before any change to the brief. <a href="findings/#growth-share">See the finding</a></p></div>
-  <span class="count past">Watching</span>
+  <time datetime="2026-12-18">18 Dec 2026</time>
+  <div><h3>Schahfer and Culley emergency orders expire</h3><p>DOE Orders 202-26-46 and 202-26-47 hold 812 MW in Indiana through 18 December. If Schahfer&#x27;s 722 MW retired this month along with Sherco 1 and Comanche 2, 2026 coal retirements would pass 1.5 GW and KPA call BF-1 would fail. <a href="findings/#retired-2025-2-7">See the finding</a></p></div>
+  <span class="count" data-date="2026-12-18"></span>
 </li></ul>
+    <p class="sec-foot"><a class="text-link" href="findings/#desk-title">See everything on the desk</a></p>
   </div>
 </section>
 
@@ -168,7 +169,7 @@
       <li><b>The question</b>Why did flat demand break?</li>
       <li><b>The format</b>One argument, a few charts, about ten pages</li>
       <li><b>The checking</b>Every figure recomputed and stress-tested</li>
-      <li><b>No. 1, 26 October 2026</b>Load Bearing is published</li><li><b>No. 2, 29 October 2026</b>Slot Machine is published</li><li><b>No. 3, 10 November 2026</b>Banked Fires is published</li>
+      <li><b>No. 1, 26 October 2026</b>Load Bearing is published</li><li><b>No. 2, 29 October 2026</b>Slot Machine is published</li><li><b>No. 3, 10 November 2026</b>Banked Fires is published</li><li><b>No. 4, 25 November 2026</b>Cold Storage is published</li>
     </ol>
   </div>
 </section>
@@ -178,6 +179,17 @@
     <div class="sec-head"><div><p class="tag">The archive</p><h2 id="archive-title">Latest briefs</h2></div>
       <p>One argument per issue, proved with a few charts, in about ten pages.</p></div>
     <article class="brief-row">
+  <a href="briefs/cold-storage/" tabindex="-1" aria-hidden="true"><img src="briefs/cold-storage/cover.png" alt="" width="1275" height="1650" loading="lazy"></a>
+  <div>
+    <h3><a href="briefs/cold-storage/">Cold Storage</a></h3>
+    <p>Batteries now lead winter capacity additions, but long winter peaks outlast them</p>
+    <p class="kind">No. 4, 25 November 2026. Decision brief, US power and utilities, 9 pages.</p>
+  </div>
+  <div class="links">
+    <a class="text-link" href="briefs/cold-storage/">Open the brief</a>
+    <a class="text-link" href="briefs/cold-storage/cold-storage.pdf" download="Cold Storage - Kranenburg Power Advisors.pdf">Download PDF</a>
+  </div>
+</article><article class="brief-row">
   <a href="briefs/banked-fires/" tabindex="-1" aria-hidden="true"><img src="briefs/banked-fires/cover.png" alt="" width="1275" height="1650" loading="lazy"></a>
   <div>
     <h3><a href="briefs/banked-fires/">Banked Fires</a></h3>
@@ -198,17 +210,6 @@
   <div class="links">
     <a class="text-link" href="briefs/slot-machine/">Open the brief</a>
     <a class="text-link" href="briefs/slot-machine/slot-machine.pdf" download="Slot Machine - Kranenburg Power Advisors.pdf">Download PDF</a>
-  </div>
-</article><article class="brief-row">
-  <a href="briefs/load-bearing/" tabindex="-1" aria-hidden="true"><img src="cover.png" alt="" width="1275" height="1650" loading="lazy"></a>
-  <div>
-    <h3><a href="briefs/load-bearing/">Load Bearing</a></h3>
-    <p>AI data centers, the end of flat demand, and the remaking of the utility planning order</p>
-    <p class="kind">No. 1, 26 October 2026. Decision brief, US power and utilities, 10 pages.</p>
-  </div>
-  <div class="links">
-    <a class="text-link" href="briefs/load-bearing/">Open the brief</a>
-    <a class="text-link" href="briefs/load-bearing/load-bearing.pdf" download="Load Bearing - Kranenburg Power Advisors.pdf">Download PDF</a>
   </div>
 </article>
     <p class="sec-foot"><a class="text-link" href="briefs/">See every brief</a></p>
@@ -237,7 +238,7 @@
       <p>Short decision briefs on energy and markets. One argument per issue, every number sourced.</p>
     </div>
     <div><h2>Read</h2><ul>
-      <li><a href="briefs/banked-fires/">Latest brief</a></li>
+      <li><a href="briefs/cold-storage/">Latest brief</a></li>
       <li><a href="briefs/">All briefs</a></li>
       <li><a href="findings/">Findings</a></li>
       <li><a href="calls/">Calls</a></li>

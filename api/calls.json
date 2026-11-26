@@ -138,5 +138,47 @@
   "status": "Open until May 2027",
   "outcome": null,
   "resolved_on": null
+ },
+ {
+  "id": "CS-1",
+  "brief": "Cold Storage",
+  "version": "1.0",
+  "made_on": "2026-11-25",
+  "call": "Across ERCOT's 10 highest net-load hours, Dec 2026-Feb 2027, battery output averages less than 30% of battery capacity in service",
+  "band": "likely",
+  "probability": 0.7,
+  "resolves_by": "2027-04-30",
+  "resolution_source": "EIA-930 hourly (ERCO) and EIA Form 860M",
+  "status": "Open until April 2027",
+  "outcome": null,
+  "resolved_on": null
+ },
+ {
+  "id": "CS-2",
+  "brief": "Cold Storage",
+  "version": "1.0",
+  "made_on": "2026-11-25",
+  "call": "On CAISO's highest winter net-load day, Dec 2026-Feb 2027, net load stays within 10% of its peak for at least five consecutive hours",
+  "band": "likely",
+  "probability": 0.65,
+  "resolves_by": "2027-04-30",
+  "resolution_source": "EIA-930 hourly (CISO)",
+  "status": "Open until April 2027",
+  "outcome": null,
+  "resolved_on": null
+ },
+ {
+  "id": "CS-3",
+  "brief": "Cold Storage",
+  "version": "1.0",
+  "made_on": "2026-11-25",
+  "call": "US battery capacity in operation reaches at least 70 GW in EIA Form 860M for September 2027",
+  "band": "likely",
+  "probability": 0.7,
+  "resolves_by": "2027-11-30",
+  "resolution_source": "EIA Form 860M, September 2027",
+  "status": "Open until November 2027",
+  "outcome": null,
+  "resolved_on": null
  }
 ]
