@@ -1,0 +1,77 @@
+{
+ "type": "bar",
+ "horizontal": true,
+ "figure": "Figure 2",
+ "data": "kpa_fig2_guidance.csv",
+ "title": "Guided EPS growth equals half to four-fifths of guided rate base growth",
+ "subtitle": "Guided annual growth in rate base and in EPS, midpoints; EPS growth as a share of rate base growth in brackets",
+ "units": "",
+ "fmt": {
+  "suffix": "%"
+ },
+ "categories": [
+  "Southern",
+  "AEP",
+  "Pinnacle West",
+  "Dominion",
+  "Entergy"
+ ],
+ "categoryName": "Utility group",
+ "x": {
+  "min": 0,
+  "max": 20,
+  "ticks": [
+   0,
+   5,
+   10,
+   15,
+   20
+  ],
+  "fmt": {
+   "suffix": "%",
+   "zero": "0"
+  }
+ },
+ "series": [
+  {
+   "name": "Rate base growth",
+   "color": "delft",
+   "values": [
+    9.0,
+    13.2,
+    8.0,
+    10.0,
+    16.1
+   ]
+  },
+  {
+   "name": "EPS growth",
+   "label": "EPS growth (share of rate base growth in brackets)",
+   "color": "copper",
+   "values": [
+    7.5,
+    10.0,
+    6.0,
+    6.0,
+    8.0
+   ],
+   "extra": {
+    "name": "EPS growth as a share of rate base growth",
+    "values": [
+     0.8333,
+     0.7576,
+     0.75,
+     0.6,
+     0.4969
+    ],
+    "fmt": {
+     "scale": 100,
+     "decimals": 0,
+     "prefix": "(",
+     "suffix": "%)"
+    }
+   }
+  }
+ ],
+ "source": "Source: KPA analysis of company guidance."
+}

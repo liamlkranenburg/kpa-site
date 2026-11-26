@@ -1,0 +1,83 @@
+{
+ "type": "bar",
+ "horizontal": true,
+ "figure": "Figure 3",
+ "data": "kpa_fig2_guidance.csv",
+ "title": "On guidance, each megawatt-hour will carry more capital at Southern and Entergy",
+ "subtitle": "Change in rate base per MWh of retail sales over five years implied by company guidance",
+ "units": "",
+ "categories": [
+  "Southern",
+  "Entergy",
+  "Pinnacle West"
+ ],
+ "categoryName": "Utility group",
+ "barHeight": 26,
+ "x": {
+  "min": -10,
+  "max": 45,
+  "ticks": [
+   0,
+   10,
+   20,
+   30,
+   40
+  ],
+  "fmt": {
+   "suffix": "%",
+   "sign": true,
+   "zero": "0"
+  }
+ },
+ "series": [
+  {
+   "name": "Capital per MWh, five-year change",
+   "color": "copper",
+   "scale": 100,
+   "values": [
+    0.3834,
+    0.371,
+    -0.045
+   ],
+   "colors": [
+    "copper",
+    "copper",
+    "delft"
+   ],
+   "valueLabels": false,
+   "fmt": {
+    "decimals": 1,
+    "suffix": "%",
+    "sign": true
+   }
+  }
+ ],
+ "notes": [
+  {
+   "i": 0,
+   "v": 38.34,
+   "dx": 6,
+   "anchor": "start",
+   "text": "+38%",
+   "color": "copper"
+  },
+  {
+   "i": 1,
+   "v": 37.1,
+   "dx": 6,
+   "anchor": "start",
+   "text": "+37%",
+   "color": "copper"
+  },
+  {
+   "i": 2,
+   "v": -4.5,
+   "dx": -6,
+   "anchor": "end",
+   "text": "−4%",
+   "color": "delft"
+  }
+ ],
+ "derived": "values = capital_per_mwh_5yr (KPA: ((1 + rate base growth) / (1 + sales growth))^5 − 1); bar-end labels drawn as notes so the negative bar's label sits left of it, as printed",
+ "source": "Source: KPA analysis of company guidance."
+}

@@ -311,6 +311,11 @@
     yAxis(G.grid, Y, y, m.l, x1, tl);
     each(ticks(X), function (t) { txt(G.lab, x(t), bot + 18, fmt(t, bare(X.fmt || {})), { anchor: 'middle' }); });
     if (X.title) txt(G.lab, (m.l + x1) / 2, bot + 38, narrow && X.titleNarrow ? X.titleNarrow : X.title, { anchor: 'middle', size: 11 });
+    // Zero line on x, and horizontal reference lines (labels come from S.notes)
+    if (X.min < 0 && X.max > 0) mk('line', { x1: x(0), x2: x(0), y1: m.t, y2: bot, stroke: '#8A93A3', 'stroke-width': 1 }, G.grid);
+    each(S.refs, function (r) {
+      mk('line', { x1: m.l, x2: x1, y1: y(r.value), y2: y(r.value), stroke: fill(r.color || 'grey'), 'stroke-width': 1.5, 'stroke-dasharray': r.dash || '4 3' }, G.marks);
+    });
     each(S.series, function (s) {
       each(s.points, function (p) {
         var c = mk('circle', { cx: x(p[0]), cy: y(p[1]), r: rad, fill: fill(s.color), stroke: '#fff', 'stroke-width': 1, 'class': 'ichart-fade' }, G.marks);
